@@ -35,11 +35,22 @@ MODELS = [
 
 
 def cite_rate(rows, haystack):
+    """Share of quotes findable in the pack, or None when nothing was returned.
+
+    An empty response is a reliability failure, not a citation failure. Scoring
+    it 0% conflates "the model invented quotes" with "the model said nothing",
+    which are different defects with different fixes.
+    """
     if not rows:
-        return 0.0
+        return None
     ok = sum(1 for r in rows
              if vq.classify(r.source_quote, haystack)[0] != vq.MISSING)
     return ok / len(rows)
+
+
+def mean(vals):
+    real = [v for v in vals if v is not None]
+    return sum(real) / len(real) if real else 0.0
 
 
 def main() -> int:
@@ -56,11 +67,11 @@ def main() -> int:
         rule_total += len(rows)
         rule_cite.append(cite_rate(rows, hay))
     results["patterns only (no model)"] = {
-        "requirements": rule_total, "cite": sum(rule_cite) / len(rule_cite),
+        "requirements": rule_total, "cite": mean(rule_cite), "empty_runs": sum(1 for v in rule_cite if v is None),
         "tokens": 0, "cost": 0.0, "ms": rule_ms, "model": "-",
     }
     print(f"  patterns only          {rule_total:>3} reqs  "
-          f"cite {results['patterns only (no model)']['cite']*100:5.1f}%  "
+          f"cite {mean(rule_cite)*100:5.1f}%  "
           f"{rule_ms:>6} ms  $0")
 
     for label, model in MODELS:
@@ -85,9 +96,11 @@ def main() -> int:
         if not cites:
             continue
         cost = LC.cost_usd(model, tin, tout)
-        results[label] = {"requirements": total, "cite": sum(cites) / len(cites),
+        results[label] = {"requirements": total, "cite": mean(cites),
+                          "empty_runs": sum(1 for v in cites if v is None),
                           "tokens": tin + tout, "cost": cost, "ms": ms, "model": model}
-        print(f"  {label:<22} {total:>3} reqs  cite {sum(cites)/len(cites)*100:5.1f}%  "
+        print(f"  {label:<22} {total:>3} reqs  cite {mean(cites)*100:5.1f}%  "
+              f"({sum(1 for v in cites if v is None)} empty)  "
               f"{ms:>6} ms  {tin+tout:>6} tok  ${cost:.6f}")
 
     (ROOT / "data" / "bench_models.json").write_text(

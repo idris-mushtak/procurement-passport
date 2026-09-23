@@ -1,0 +1,41 @@
+{
+  "tenders": [
+    "648631-2026",
+    "617228-2026",
+    "647200-2026"
+  ],
+  "results": {
+    "patterns only (no model)": {
+      "requirements": 12,
+      "cite": 1.0,
+      "tokens": 0,
+      "cost": 0.0,
+      "ms": 34,
+      "model": "-"
+    },
+    "Qwen3-30B-A3B": {
+      "requirements": 22,
+      "cite": 1.0,
+      "tokens": 47278,
+      "cost": 0.0056284,
+      "ms": 164810,
+      "model": "Qwen/Qwen3-30B-A3B-Instruct-2507"
+    },
+    "DeepSeek-V4.1-Flash": {
+      "requirements": 28,
+      "cite": 0.6666666666666666,
+      "tokens": 55256,
+      "cost": 0.0,
+      "ms": 104960,
+      "model": "deepseek-ai/DeepSeek-V4.1-Flash"
+    },
+    "DeepSeek-V4-Pro": {
+      "requirements": 22,
+      "cite": 1.0,
+      "tokens": 44104,
+      "cost": 0.0,
+      "ms": 32993,
+      "model": "deepseek-ai/DeepSeek-V4-Pro"
+    }
+  }
+}
