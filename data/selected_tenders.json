@@ -1,0 +1,319 @@
+[
+  {
+    "ted_id": "654951-2026",
+    "title": "Project Portfolio Management (PPM)",
+    "buyer": "Spaarnelanden N.V.",
+    "value_eur": 400000.0,
+    "deadline": "2026-11-13",
+    "days_until": 51,
+    "cpv": [
+      "72000000",
+      "48000000"
+    ],
+    "portal": "TenderNed",
+    "documents_url": "https://www.tenderned.nl/aankondigingen/overzicht/440919",
+    "criteria_source": "epo-procurement-document",
+    "pack_host": "tenderned",
+    "score": 7.5,
+    "reasons": [
+      "51d runway",
+      "tenderned pack",
+      "value EUR 400,000",
+      "SME-plausible size"
+    ],
+    "joint_bids_allowed": false,
+    "subcontracting_allowed": true,
+    "pack_status": "fetched"
+  },
+  {
+    "ted_id": "650682-2026",
+    "title": "Bedrijfsvoeringseenheid Bommelerwaard - EA BOR-beheersysteem",
+    "buyer": "Bedrijfsvoeringseenheid Bommelerwaard",
+    "value_eur": 647500.0,
+    "deadline": "2026-11-09",
+    "days_until": 47,
+    "cpv": [
+      "72200000"
+    ],
+    "portal": "TenderNed",
+    "documents_url": "https://www.tenderned.nl/aankondigingen/overzicht/440821",
+    "criteria_source": "epo-sub-espd",
+    "pack_host": "tenderned",
+    "score": 7.5,
+    "reasons": [
+      "47d runway",
+      "tenderned pack",
+      "value EUR 647,500",
+      "SME-plausible size"
+    ],
+    "joint_bids_allowed": true,
+    "subcontracting_allowed": true,
+    "pack_status": "fetched"
+  },
+  {
+    "ted_id": "648539-2026",
+    "title": "Zorgregie- en declaratiesysteem t.b.v. SWT",
+    "buyer": "Gemeente Zwolle",
+    "value_eur": 7605000.0,
+    "deadline": "2026-11-19",
+    "days_until": 57,
+    "cpv": [
+      "72260000",
+      "72268000",
+      "72000000"
+    ],
+    "portal": "TenderNed",
+    "documents_url": "https://www.tenderned.nl/aankondigingen/overzicht/440511",
+    "criteria_source": "epo-sub-espd",
+    "pack_host": "tenderned",
+    "score": 7.5,
+    "reasons": [
+      "57d runway",
+      "tenderned pack",
+      "value EUR 7,605,000",
+      "SME-plausible size"
+    ],
+    "joint_bids_allowed": false,
+    "subcontracting_allowed": true,
+    "pack_status": "fetched"
+  },
+  {
+    "ted_id": "648029-2026",
+    "title": "Datafundament gemeente Den Helder",
+    "buyer": "Gemeente Den Helder",
+    "value_eur": 1845000.0,
+    "deadline": "2026-11-20",
+    "days_until": 58,
+    "cpv": [
+      "72222300",
+      "30236200"
+    ],
+    "portal": "TenderNed",
+    "documents_url": "https://www.tenderned.nl/aankondigingen/overzicht/440652",
+    "criteria_source": "epo-sub-espd",
+    "pack_host": "tenderned",
+    "score": 7.5,
+    "reasons": [
+      "58d runway",
+      "tenderned pack",
+      "value EUR 1,845,000",
+      "SME-plausible size"
+    ],
+    "joint_bids_allowed": true,
+    "subcontracting_allowed": true,
+    "pack_status": "fetched"
+  },
+  {
+    "ted_id": "647200-2026",
+    "title": "Herstel van de digitale informatiehuishouding",
+    "buyer": "Veiligheidsregio Kennemerland",
+    "value_eur": 250000.0,
+    "deadline": "2026-11-30",
+    "days_until": 68,
+    "cpv": [
+      "72300000",
+      "72512000",
+      "79995100"
+    ],
+    "portal": "TenderNed",
+    "documents_url": "https://www.tenderned.nl/aankondigingen/overzicht/440489",
+    "criteria_source": "epo-sub-espd",
+    "pack_host": "tenderned",
+    "score": 7.5,
+    "reasons": [
+      "68d runway",
+      "tenderned pack",
+      "value EUR 250,000",
+      "SME-plausible size"
+    ],
+    "joint_bids_allowed": false,
+    "subcontracting_allowed": true,
+    "pack_status": "fetched"
+  },
+  {
+    "ted_id": "641736-2026",
+    "title": "BHV-App ten behoeve van het Rijk",
+    "buyer": "Inkoop Uitvoeringscentrum Dienst Justiti\u00eble Inrichtingen (IUC DJI)",
+    "value_eur": 4860000.0,
+    "deadline": "2026-12-01",
+    "days_until": 69,
+    "cpv": [
+      "72000000"
+    ],
+    "portal": "TenderNed",
+    "documents_url": "https://www.tenderned.nl/aankondigingen/overzicht/440107",
+    "criteria_source": "epo-procurement-document",
+    "pack_host": "tenderned",
+    "score": 7.5,
+    "reasons": [
+      "69d runway",
+      "tenderned pack",
+      "value EUR 4,860,000",
+      "SME-plausible size"
+    ],
+    "joint_bids_allowed": true,
+    "subcontracting_allowed": false,
+    "pack_status": "fetched"
+  },
+  {
+    "ted_id": "620296-2026",
+    "title": "Citrix beheer",
+    "buyer": "Universiteit Utrecht",
+    "value_eur": 2000000.0,
+    "deadline": "2027-01-08",
+    "days_until": 107,
+    "cpv": [
+      "72000000"
+    ],
+    "portal": "TenderNed",
+    "documents_url": "https://www.tenderned.nl/aankondigingen/overzicht/439010",
+    "criteria_source": "epo-procurement-document",
+    "pack_host": "tenderned",
+    "score": 7.5,
+    "reasons": [
+      "107d runway",
+      "tenderned pack",
+      "value EUR 2,000,000",
+      "SME-plausible size"
+    ],
+    "joint_bids_allowed": true,
+    "subcontracting_allowed": true,
+    "pack_status": "fetched"
+  },
+  {
+    "ted_id": "617228-2026",
+    "title": "Europese openbare aanbesteding Roostersysteem",
+    "buyer": "Stichting 113 Zelfmoordpreventie",
+    "value_eur": 324000.0,
+    "deadline": "2026-11-09",
+    "days_until": 47,
+    "cpv": [
+      "72212450",
+      "48450000"
+    ],
+    "portal": "TenderNed",
+    "documents_url": "https://www.tenderned.nl/aankondigingen/overzicht/438815",
+    "criteria_source": "epo-sub-espd",
+    "pack_host": "tenderned",
+    "score": 7.5,
+    "reasons": [
+      "47d runway",
+      "tenderned pack",
+      "value EUR 324,000",
+      "SME-plausible size"
+    ],
+    "joint_bids_allowed": true,
+    "subcontracting_allowed": true,
+    "pack_status": "fetched"
+  },
+  {
+    "ted_id": "613909-2026",
+    "title": "Informatiebeveiligingsonderzoeken (RVICTO-PT) 2026",
+    "buyer": "Ministerie van Economische Zaken",
+    "value_eur": 20000000.0,
+    "deadline": "2026-11-30",
+    "days_until": 68,
+    "cpv": [
+      "71600000",
+      "72220000",
+      "72254000",
+      "72800000",
+      "73430000"
+    ],
+    "portal": "TenderNed",
+    "documents_url": "https://www.tenderned.nl/aankondigingen/overzicht/438619",
+    "criteria_source": "epo-procurement-document",
+    "pack_host": "tenderned",
+    "score": 7.5,
+    "reasons": [
+      "68d runway",
+      "tenderned pack",
+      "value EUR 20,000,000",
+      "SME-plausible size"
+    ],
+    "joint_bids_allowed": true,
+    "subcontracting_allowed": false,
+    "pack_status": "fetched"
+  },
+  {
+    "ted_id": "648631-2026",
+    "title": "Outsourcing ICT",
+    "buyer": "Belastingsamenwerking Gouwe-Rijnland",
+    "value_eur": 11000000.0,
+    "deadline": "2026-10-26",
+    "days_until": 33,
+    "cpv": [
+      "72000000"
+    ],
+    "portal": "TenderNed",
+    "documents_url": "https://www.tenderned.nl/aankondigingen/overzicht/440681",
+    "criteria_source": "epo-procurement-document",
+    "pack_host": "tenderned",
+    "score": 6.7,
+    "reasons": [
+      "33d runway",
+      "tenderned pack",
+      "value EUR 11,000,000",
+      "SME-plausible size"
+    ],
+    "joint_bids_allowed": true,
+    "subcontracting_allowed": true,
+    "pack_status": "fetched"
+  },
+  {
+    "ted_id": "643806-2026",
+    "title": "EA Softwarebroker",
+    "buyer": "Samenwerkingsorganisatie De Wolden Hoogeveen",
+    "value_eur": 6000000.0,
+    "deadline": "2026-10-21",
+    "days_until": 28,
+    "cpv": [
+      "72261000",
+      "72266000"
+    ],
+    "portal": "TenderNed",
+    "documents_url": "https://www.tenderned.nl/aankondigingen/overzicht/440309",
+    "criteria_source": "epo-sub-espd",
+    "pack_host": "tenderned",
+    "score": 6.7,
+    "reasons": [
+      "28d runway",
+      "tenderned pack",
+      "value EUR 6,000,000",
+      "SME-plausible size"
+    ],
+    "joint_bids_allowed": true,
+    "subcontracting_allowed": true,
+    "pack_status": "fetched"
+  },
+  {
+    "ted_id": "638336-2026",
+    "title": "Managed Workplace, Cloud & Security Services",
+    "buyer": "Stichting Participatiefonds voor het Onderwijs",
+    "value_eur": 16000000.0,
+    "deadline": "2026-11-02",
+    "days_until": 40,
+    "cpv": [
+      "72000000",
+      "48000000",
+      "72220000",
+      "72250000",
+      "72700000",
+      "79417000"
+    ],
+    "portal": "TenderNed",
+    "documents_url": "https://www.tenderned.nl/aankondigingen/overzicht/439946",
+    "criteria_source": "epo-sub-espd",
+    "pack_host": "tenderned",
+    "score": 6.7,
+    "reasons": [
+      "40d runway",
+      "tenderned pack",
+      "value EUR 16,000,000",
+      "SME-plausible size"
+    ],
+    "joint_bids_allowed": false,
+    "subcontracting_allowed": true,
+    "pack_status": "fetched"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "_README": [
+    "Hand corrections applied after the extractor runs. Design doc step 6:",
+    "spot-check every tender by hand, about 3 minutes each.",
+    "  drop: [key]            remove a row the extractor got wrong",
+    "  set:  {key: {field:v}} patch fields on a row that is nearly right",
+    "  add:  [requirement]    insert a clause read by a human",
+    "Every added row still needs a real source_quote and page -- the UI shows it."
+  ],
+  "620296-2026": {
+    "set": {
+      "iso_27001": {
+        "source_quote": "Als u niet minimaal 2 jaar ISO 27001 gecertificeerd bent, voldoet u niet aan deze geschiktheidseis.",
+        "threshold_text": "ISO 27001, minimaal 2 jaar gecertificeerd",
+        "confidence": "medium"
+      }
+    },
+    "drop": [
+      "soc2"
+    ]
+  },
+  "613909-2026": {
+    "drop": [
+      "soc2"
+    ]
+  },
+  "648631-2026": {
+    "drop": [
+      "soc2",
+      "iso_9001"
+    ],
+    "_why": "p10 lists 'aanvullende certificeringen' as a scoring bonus, not a knock-out geschiktheidseis. Only the ISO 27001 clause on p24 is an eis."
+  },
+  "638336-2026": {
+    "_why": "The extractor now reads the real clause verbatim from p35. The hand-written add that used to live here was a paraphrase, which tools/verify_quotes.py correctly flagged as unciteable. Left empty on purpose as a worked example."
+  }
+}

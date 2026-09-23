@@ -1,0 +1,61 @@
+-- LLM bookkeeping: what the model was asked, what it decided, what it cost.
+--
+-- `judgments` records every cascade decision so a rerun can reuse it and a
+-- reviewer can see which tier answered. `llm_calls` is the cost ledger behind
+-- the cost_summary view -- the demo claims a price per company evaluated, and
+-- that claim has to come from measured spend, not an estimate.
+--
+-- Safe to re-run.
+
+create table if not exists judgments (
+  id             uuid primary key default gen_random_uuid(),
+  requirement_id uuid references requirements(id) on delete cascade,
+  company_id     uuid references companies(id) on delete cascade,
+  reference_id   uuid references company_references(id) on delete set null,
+  p_yes          double precision,
+  p_no           double precision,
+  p_unclear      double precision,
+  decision       text not null check (decision in ('pass','gap','review')),
+  tier_used      text not null,
+  model          text,
+  -- sha256 of (model + prompt + inputs); the unique index is what makes a
+  -- rerun cheap instead of a second bill.
+  input_hash     text unique,
+  created_at     timestamptz not null default now()
+);
+create index if not exists judgments_company_idx on judgments(company_id);
+create index if not exists judgments_requirement_idx on judgments(requirement_id);
+
+create table if not exists llm_calls (
+  id            uuid primary key default gen_random_uuid(),
+  created_at    timestamptz not null default now(),
+  task          text not null,
+  tier          text not null,
+  provider      text not null,
+  model         text not null,
+  input_tokens  int not null default 0,
+  output_tokens int not null default 0,
+  cost_usd      numeric(12,6) not null default 0,
+  latency_ms    int not null default 0,
+  cache_hit     boolean not null default false
+);
+create index if not exists llm_calls_task_idx on llm_calls(task, tier);
+create index if not exists llm_calls_created_idx on llm_calls(created_at desc);
+
+-- What the run cost, by task and tier. Cache hits are counted but contribute
+-- zero cost, so the saving is visible rather than merely implied.
+create or replace view cost_summary as
+select task,
+       tier,
+       provider,
+       count(*)                                        as calls,
+       count(*) filter (where cache_hit)               as cache_hits,
+       sum(input_tokens)                               as input_tokens,
+       sum(output_tokens)                              as output_tokens,
+       round(sum(cost_usd), 6)                         as cost_usd,
+       round(avg(latency_ms)::numeric, 1)              as avg_latency_ms
+from llm_calls
+group by task, tier, provider
+order by cost_usd desc nulls last;
+
+alter view cost_summary set (security_invoker = true);

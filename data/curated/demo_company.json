@@ -1,0 +1,35 @@
+{
+  "_comment": "Single source of truth for the demo company. sql/03_demo_company.sql is generated from this file by `python -m prep.run emit`. Tune these numbers after the first evaluate run so gaps spread across the ladder -- tuning the demo profile is fair game, tuning extracted requirements is not.",
+  "id": "11111111-1111-1111-1111-111111111111",
+  "name": "Meridiaan Digitaal B.V.",
+  "slug": "demo-meridiaan",
+  "country": "NL",
+  "prefs": {
+    "allow_certification": true,
+    "allow_partners": true,
+    "partner_min_contract_value_eur": 0,
+    "excluded_partners": []
+  },
+  "capabilities": [
+    {"req_type": "turnover", "key": "turnover_avg3y", "value_num": 1400000, "trust": "verified",
+     "source_quote": "Jaarrekening 2023-2025, gemiddelde omzet EUR 1.4M"},
+    {"req_type": "certification", "key": "iso_9001", "value_text": "ISO 9001:2015", "valid_until": "2027-06-30",
+     "trust": "verified", "source_quote": "Certificaat ISO 9001:2015, geldig tot 30-06-2027"},
+    {"req_type": "insurance", "key": "liability_insurance_eur", "value_num": 1000000, "valid_until": "2027-01-01",
+     "trust": "verified", "source_quote": "Polis bedrijfsaansprakelijkheid EUR 1.000.000 per gebeurtenis"},
+    {"req_type": "staff_language", "key": "lang_nl", "value_text": "Nederlands", "trust": "verified",
+     "source_quote": "Voertaal van de organisatie is Nederlands"},
+    {"req_type": "local_presence", "key": "office_nl", "value_text": "Amsterdam, NL", "trust": "verified",
+     "source_quote": "Vestiging Amsterdam, KvK-inschrijving Nederland"},
+    {"req_type": "staff_language", "key": "fte", "value_num": 18, "trust": "verified",
+     "source_quote": "18 FTE per 1 januari 2026"}
+  ],
+  "references": [
+    {"buyer": "Gemeente Haarlemmermeer", "title": "Implementatie zaakgericht werken en koppelingen",
+     "public_sector": true, "cpv": "72212000", "value_eur": 240000, "end_date": "2025-04-30", "trust": "verified"},
+    {"buyer": "Omgevingsdienst Noordzeekanaalgebied", "title": "Beheer en doorontwikkeling inspectieapplicatie",
+     "public_sector": true, "cpv": "72267000", "value_eur": 310000, "end_date": "2026-02-28", "trust": "verified"},
+    {"buyer": "Koninklijke Mosa B.V.", "title": "Integratieplatform productieregistratie",
+     "public_sector": false, "cpv": "72212000", "value_eur": 180000, "end_date": "2024-11-30", "trust": "verified"}
+  ]
+}

@@ -1,0 +1,12 @@
+-- The gap ladder. Static reference data.
+insert into ladder (level, label, typical, max_days) values
+  (1, 'Evidence',      'Days',                            7),
+  (2, 'Admin',         'Days-weeks',                      21),
+  (3, 'People',        'Weeks-months',                    60),
+  (4, 'Certification', 'Months',                          150),
+  (5, 'Track record',  'Not fixable in time alone',       null),
+  (6, 'Hard blocker',  '-',                               null)
+on conflict (level) do update
+  set label = excluded.label,
+      typical = excluded.typical,
+      max_days = excluded.max_days;

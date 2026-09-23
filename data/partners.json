@@ -1,0 +1,3388 @@
+[
+  {
+    "id": "45972d12-6359-52fd-8597-691caa505f67",
+    "slug": "afas software",
+    "name": "Afas Software B.V.",
+    "public_awards": 27,
+    "buyers": [
+      "De Dienst voor het kadaster en de openbare registers (het Kadaster)",
+      "Gemeenschappelijke regeling KempenPlus",
+      "Gemeente Almere",
+      "Gemeente Beverwijk",
+      "Gemeente Ede",
+      "Gemeente Haarlem",
+      "Gemeente Heerenveen",
+      "Gemeente Landgraaf",
+      "Gemeente Meppel",
+      "Gemeente Woerden",
+      "Omgevingsdienst De Vallei",
+      "Omgevingsdienst Regio Arnhem",
+      "Scalda Stichting voor middelbaar beroepsonderwijs en volwasseneneducatie",
+      "Stichting Albeda",
+      "Stichting Lucas Onderwijs",
+      "Stichting Openbare Bibliotheek Amsterdam",
+      "Stichting Projectenbureau Publieke Gezondheid en Veiligheid Nederland",
+      "Stichting SARO",
+      "Stichting Unicoz onderwijsgroep",
+      "Stichting voor Educatie en Beroepsonderwijs",
+      "Stichting voor Voortgezet Onderwijs Lelystad",
+      "Universiteit Leiden",
+      "Veiligheidsregio Rotterdam-Rijnmond",
+      "Veiligheidsregio Zuid-Limburg",
+      "gemeente Nissewaard",
+      "gemeente Sittard-Geleen",
+      "stichting de Bibliotheek Utrecht"
+    ],
+    "largest_award_eur": 17708136.0,
+    "cpv_divisions": [
+      "48",
+      "72",
+      "79"
+    ],
+    "references": [
+      {
+        "buyer": "Scalda Stichting voor middelbaar beroepsonderwijs en volwasseneneducatie",
+        "value_eur": 3000000.0,
+        "end_date": "2024-02-21",
+        "cpv": "48400000",
+        "title": "Hollandia \u2013 Kereskedelmi \u00e9s szem\u00e9lyes tranzakci\u00f3kezel\u0151 szoftvercsomag \u2013 N029 - 002 - SaaS HR - Inkoop en Financi\u00ebn Scalda (ERP)",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/106480-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Veiligheidsregio Zuid-Limburg",
+        "value_eur": 1000000.0,
+        "end_date": "2024-02-21",
+        "cpv": "48450000",
+        "title": "Hollandia \u2013 Id\u0151elsz\u00e1mol\u00f3 vagy hum\u00e1ner\u0151forr\u00e1s-szoftvercsomag \u2013 Europese aanbesteding HRM systeem t.b.v. Veiligheidsregio Zuid-Limburg",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/107604-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Stichting voor Educatie en Beroepsonderwijs",
+        "value_eur": 191536.32,
+        "end_date": "2024-02-27",
+        "cpv": "72263000",
+        "title": "Hollandia \u2013 Szoftvermegval\u00f3s\u00edt\u00e1si szolg\u00e1ltat\u00e1sok \u2013 Europese aanbesteding E-HRM",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/120693-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "gemeente Sittard-Geleen",
+        "value_eur": 1105340.0,
+        "end_date": "2024-03-14",
+        "cpv": "48450000",
+        "title": "Hollandia \u2013 Id\u0151elsz\u00e1mol\u00f3 vagy hum\u00e1ner\u0151forr\u00e1s-szoftvercsomag \u2013 HR Software",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/155274-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "gemeente Nissewaard",
+        "value_eur": 1225000.0,
+        "end_date": "2024-03-29",
+        "cpv": "72263000",
+        "title": "Hollandia \u2013 Szoftvermegval\u00f3s\u00edt\u00e1si szolg\u00e1ltat\u00e1sok \u2013 Levering en implementatie Personeels- informatiesysteem e-HRM Inclusief applicatie werving en selectie",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/189060-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeenschappelijke regeling KempenPlus",
+        "value_eur": null,
+        "end_date": "2024-04-15",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Vervanging ERP-systeem KempenPlus",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/221173-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Omgevingsdienst Regio Arnhem",
+        "value_eur": null,
+        "end_date": "2024-06-07",
+        "cpv": "72200000",
+        "title": "Hollandia \u2013 Szoftverprogramoz\u00e1si \u00e9s tan\u00e1csad\u00e1si szolg\u00e1ltat\u00e1sok \u2013 FIS en HRM applicatie",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/338330-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Stichting voor Voortgezet Onderwijs Lelystad",
+        "value_eur": 75772.0,
+        "end_date": "2024-06-11",
+        "cpv": "48219300",
+        "title": "Hollandia \u2013 Adminisztr\u00e1ci\u00f3s szoftvercsomag \u2013 Europese aanbesteding E-HRM",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/344285-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Stichting Unicoz onderwijsgroep",
+        "value_eur": 2750000.0,
+        "end_date": "2024-07-16",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Geautomatiseerd Financieel/HRM-informatiesysteem",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/425296-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Stichting Openbare Bibliotheek Amsterdam",
+        "value_eur": 500000.0,
+        "end_date": "2024-08-05",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Bedrijfsapplicaties",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/470066-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Stichting Lucas Onderwijs",
+        "value_eur": 3900000.0,
+        "end_date": "2024-09-17",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Administratieve bedrijfsapplicaties",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/555868-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Universiteit Leiden",
+        "value_eur": 17708136.0,
+        "end_date": "2024-09-24",
+        "cpv": "48440000",
+        "title": "Hollandia \u2013 P\u00e9nz\u00fcgyi elemz\u0151 \u00e9s elsz\u00e1mol\u00e1si szoftvercsomag \u2013 ERP",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/573515-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Landgraaf",
+        "value_eur": null,
+        "end_date": "2025-01-15",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Applicatie HRM en salarisadministratie gemeente Landgraaf",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/27441-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "De Dienst voor het kadaster en de openbare registers (het Kadaster)",
+        "value_eur": 10000000.0,
+        "end_date": "2025-01-30",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Best Value aanbesteding ERP-Core",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/64623-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Almere",
+        "value_eur": 4675000.0,
+        "end_date": "2025-02-05",
+        "cpv": "72260000",
+        "title": "Hollandia \u2013 Szoftverrel kapcsolatos szolg\u00e1ltat\u00e1sok \u2013 Nieuw financieel systeem gemeente Almere",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/80159-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Stichting SARO",
+        "value_eur": 930450.0,
+        "end_date": "2025-03-11",
+        "cpv": "72265000",
+        "title": "Hollandia \u2013 Szoftverkonfigur\u00e1l\u00e1si szolg\u00e1ltat\u00e1sok \u2013 Selectie integrale Bedrijfsvoeringsoplossing voor Financi\u00ebn en HRM",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/158289-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "stichting de Bibliotheek Utrecht",
+        "value_eur": 368610.0,
+        "end_date": "2025-04-15",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Bedrijfsapplicaties",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/244562-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Ede",
+        "value_eur": 392998.4,
+        "end_date": "2025-05-05",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 HR informatiesysteem",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/285969-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Beverwijk",
+        "value_eur": 274860.0,
+        "end_date": "2025-05-12",
+        "cpv": "79211110",
+        "title": "Hollandia \u2013 B\u00e9rsz\u00e1mfejt\u00e9si szolg\u00e1ltat\u00e1sok \u2013 E-HRM en Salarisverwerkingsdienst",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/299516-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Stichting Albeda",
+        "value_eur": 1538082.0,
+        "end_date": "2025-05-12",
+        "cpv": "48219300",
+        "title": "Hollandia \u2013 Adminisztr\u00e1ci\u00f3s szoftvercsomag \u2013 Aanbesteding ERP (HRM, Finance en Inkoopapplicatie",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/300309-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Heerenveen",
+        "value_eur": 1045000.0,
+        "end_date": "2025-05-15",
+        "cpv": "48450000",
+        "title": "Hollandia \u2013 Id\u0151elsz\u00e1mol\u00f3 vagy hum\u00e1ner\u0151forr\u00e1s-szoftvercsomag \u2013 e-HRM systeem",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/314084-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Veiligheidsregio Rotterdam-Rijnmond",
+        "value_eur": 1736000.0,
+        "end_date": "2025-05-30",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 ERP Inkoop en Financieel SaaS",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/348607-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Haarlem",
+        "value_eur": 1090780.0,
+        "end_date": "2025-06-12",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 e-HRM t.b.v. gemeente Haarlem",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/380716-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Meppel",
+        "value_eur": 615314.0,
+        "end_date": "2025-06-25",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 e-HRM systeem",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/407496-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Woerden",
+        "value_eur": 449525.0,
+        "end_date": "2025-06-26",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 e-HRM systeem en implementatie",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/411965-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Omgevingsdienst De Vallei",
+        "value_eur": 603388.0,
+        "end_date": "2025-07-01",
+        "cpv": "72200000",
+        "title": "Hollandia \u2013 Szoftverprogramoz\u00e1si \u00e9s tan\u00e1csad\u00e1si szolg\u00e1ltat\u00e1sok \u2013 Oplossing voor Integrale bedrijfsvoering in eigen regie Omgevingsdienst",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/424062-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Stichting Projectenbureau Publieke Gezondheid en Veiligheid Nederland",
+        "value_eur": 1000000.0,
+        "end_date": "2025-07-16",
+        "cpv": "72200000",
+        "title": "Hollandia \u2013 Szoftverprogramoz\u00e1si \u00e9s tan\u00e1csad\u00e1si szolg\u00e1ltat\u00e1sok \u2013 Afas licenties",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/463925-2025",
+        "public_sector": true
+      }
+    ]
+  },
+  {
+    "id": "203adcea-7a94-51f1-b79e-8971610c9d00",
+    "slug": "pinkroccade local government",
+    "name": "PinkRoccade Local Government B.V.",
+    "public_awards": 31,
+    "buyers": [
+      "Gemeente Berg en Dal",
+      "Gemeente Borger-Odoorn",
+      "Gemeente Coevorden",
+      "Gemeente De Ronde Venen",
+      "Gemeente Drimmelen",
+      "Gemeente Haarlemmermeer",
+      "Gemeente Heemstede",
+      "Gemeente Koggenland",
+      "Gemeente Lochem",
+      "Gemeente Medemblik",
+      "Gemeente Meerssen",
+      "Gemeente Meppel",
+      "Gemeente Noordwijk",
+      "Gemeente Overbetuwe",
+      "Gemeente Rijssen-Holten",
+      "Gemeente Schagen",
+      "Gemeente Smallingerland",
+      "Gemeente Tynaarlo",
+      "Gemeente Waalre",
+      "Gemeente Wageningen",
+      "Gemeente Westerkwartier",
+      "Gemeente Zeist",
+      "Gemeente Zoetermeer",
+      "Gemeente Zwolle",
+      "Samenwerkingsorganisatie De Wolden Hoogeveen",
+      "de gemeente Gennep"
+    ],
+    "largest_award_eur": 4500000.0,
+    "cpv_divisions": [
+      "48",
+      "72"
+    ],
+    "references": [
+      {
+        "buyer": "Gemeente Medemblik",
+        "value_eur": null,
+        "end_date": "2024-02-06",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Makelaarsuite PinkRoccade",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/78083-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Westerkwartier",
+        "value_eur": null,
+        "end_date": "2024-03-22",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Integrale Burgerzakenapplicatie (BRP)",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/174168-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Schagen",
+        "value_eur": 870000.0,
+        "end_date": "2024-04-12",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 2023021 Software module Belastingen",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/216703-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Borger-Odoorn",
+        "value_eur": 4500000.0,
+        "end_date": "2024-05-08",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Aankondiging in geval van vrijwillige transparantie vooraf",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/271452-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Tynaarlo",
+        "value_eur": 1369762.0,
+        "end_date": "2024-05-24",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Vervangen financieel systeem gemeente Tynaarlo",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/307029-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Tynaarlo",
+        "value_eur": 1761360.0,
+        "end_date": "2024-06-07",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Burgerzaken-software gemeente Tynaarlo",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/338112-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Smallingerland",
+        "value_eur": 1100000.0,
+        "end_date": "2024-07-10",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Burgerzaken Applicatie",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/413227-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Drimmelen",
+        "value_eur": 1326939.0,
+        "end_date": "2024-08-19",
+        "cpv": "72260000",
+        "title": "Hollandia \u2013 Szoftverrel kapcsolatos szolg\u00e1ltat\u00e1sok \u2013 Financieel Systeem gemeente Drimmelen",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/495561-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente De Ronde Venen",
+        "value_eur": 2397223.0,
+        "end_date": "2024-08-22",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Sociaal domein-software - gemeente De Ronde Venen",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/504771-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Coevorden",
+        "value_eur": 2630000.0,
+        "end_date": "2024-08-26",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Financieel systeem inclusief migratie en conversie",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/510725-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Meerssen",
+        "value_eur": 1000000.0,
+        "end_date": "2024-08-28",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Vrijwillige Transparantie Financieel systeem Gemeente Meerssen",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/516474-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Berg en Dal",
+        "value_eur": 900000.0,
+        "end_date": "2024-10-02",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Vrijwillige Transparantie Financieel systeem Gemeente Berg en Dal",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/590990-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Lochem",
+        "value_eur": null,
+        "end_date": "2024-10-02",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 GEO-software : BAG- en BGT-beheercomponent",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/593674-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente De Ronde Venen",
+        "value_eur": 2767224.0,
+        "end_date": "2024-10-17",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Aanbesteding Burgerzaken-software van Gemeente De Ronde Venen",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/628900-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Samenwerkingsorganisatie De Wolden Hoogeveen",
+        "value_eur": null,
+        "end_date": "2024-11-13",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 EA Levering, beheer en onderhoud van de applicatie Burgerzaken",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/690228-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Zwolle",
+        "value_eur": 172662.0,
+        "end_date": "2024-11-19",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Financieel systeem (SaaS)",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/704224-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Haarlemmermeer",
+        "value_eur": 330000.0,
+        "end_date": "2024-12-03",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Vrijwillige transparantie vooraf Uitbreiding functionaliteiten Burgerzaken applicatie",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/736663-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Lochem",
+        "value_eur": null,
+        "end_date": "2024-12-09",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Burgerzaken functionaliteiten",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/749589-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Overbetuwe",
+        "value_eur": 2480050.0,
+        "end_date": "2025-01-02",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Applicatie burgerzaken",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/712-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Wageningen",
+        "value_eur": 263080.0,
+        "end_date": "2025-02-19",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Burgerzakensoftware",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/111315-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Samenwerkingsorganisatie De Wolden Hoogeveen",
+        "value_eur": null,
+        "end_date": "2025-03-05",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Vrijwillige transparantie vooraf inzake applicaties domeinen Belastingen en Financi\u00ebn",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/144082-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Samenwerkingsorganisatie De Wolden Hoogeveen",
+        "value_eur": null,
+        "end_date": "2025-03-05",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Vrijwillige transparantie vooraf inzake applicaties Gegevensmakelaar",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/144785-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Heemstede",
+        "value_eur": 3102078.07,
+        "end_date": "2025-04-10",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 BLD HMS Applicatie sociaal domein",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/233535-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Waalre",
+        "value_eur": 275856.0,
+        "end_date": "2025-04-24",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Applicatie Burgerzaken Gemeente Waalre",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/266213-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Noordwijk",
+        "value_eur": 2226000.0,
+        "end_date": "2025-04-25",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Burgerzakenapplicatie",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/267922-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Koggenland",
+        "value_eur": 1094632.38,
+        "end_date": "2025-05-07",
+        "cpv": "72200000",
+        "title": "Hollandia \u2013 Szoftverprogramoz\u00e1si \u00e9s tan\u00e1csad\u00e1si szolg\u00e1ltat\u00e1sok \u2013 Financieel softwarepakket - gemeente Koggenland",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/294542-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "de gemeente Gennep",
+        "value_eur": 650000.0,
+        "end_date": "2025-06-04",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 ICT oplossing Werk & Inkomen - gemeente Gennep",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/360902-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Meppel",
+        "value_eur": 1116125.5,
+        "end_date": "2025-06-06",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Burgerzaken applicatie (BRP)",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/368617-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Zoetermeer",
+        "value_eur": null,
+        "end_date": "2025-06-18",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 BRP-applicatie",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/392632-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Zeist",
+        "value_eur": 1190000.0,
+        "end_date": "2025-07-08",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 EA Burgerzaken-software",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/443672-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Rijssen-Holten",
+        "value_eur": 2560000.0,
+        "end_date": "2025-07-10",
+        "cpv": "72416000",
+        "title": "Hollandia \u2013 Alkalmaz\u00e1sszolg\u00e1ltat\u00e1s ny\u00fajt\u00e1sa \u2013 EA Aanschaf SaaS applicatie burgerzaken gem RH 2026 ev.",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/449189-2025",
+        "public_sector": true
+      }
+    ]
+  },
+  {
+    "id": "842520bb-d39a-548c-9d7c-b9a0d3522bcc",
+    "slug": "bechtle",
+    "name": "Bechtle B.V.",
+    "public_awards": 23,
+    "buyers": [
+      "Avans Hogeschool te Tilburg",
+      "GGD Flevoland",
+      "GGD Groningen en Veiligheidsregio Groningen (p.a gemeente Groningen)",
+      "Gemeente Breda",
+      "Gemeente Den Helder",
+      "Gemeente Edam-Volendam",
+      "Gemeente Gouda",
+      "Gemeente Heemskerk",
+      "Gemeente Heemstede",
+      "Gemeente Oss",
+      "Gemeente Rucphen",
+      "Gemeente Terneuzen",
+      "Gemeente Texel",
+      "Gemeente Valkenburg aan de Geul",
+      "Gemeente Zaanstad",
+      "Gemeente Zeist",
+      "IJsselgemeenten",
+      "Inkoopsamenwerking Noord Veluwe (ISNV)",
+      "Ministerie van Economische Zaken en Klimaat, Rijksdienst voor Ondernemend Nederland (RVO)",
+      "Omgevingsdienst Regio Arnhem",
+      "Sociaal-Economische Raad - SER",
+      "Stichting Bevolkingsonderzoek Nederland",
+      "Universiteit Twente"
+    ],
+    "largest_award_eur": 120000000.0,
+    "cpv_divisions": [
+      "30",
+      "32",
+      "48",
+      "72"
+    ],
+    "references": [
+      {
+        "buyer": "Universiteit Twente",
+        "value_eur": 5000000.0,
+        "end_date": "2024-02-08",
+        "cpv": "48800000",
+        "title": "Hollandia \u2013 Inform\u00e1ci\u00f3s rendszerek \u00e9s szerverek \u2013 Servers en Storage",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/82088-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Zeist",
+        "value_eur": 3200000.0,
+        "end_date": "2024-02-13",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Microsoft licenties 2024 - 2030",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/90214-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Edam-Volendam",
+        "value_eur": 1000000.0,
+        "end_date": "2024-02-13",
+        "cpv": "30200000",
+        "title": "Hollandia \u2013 Sz\u00e1m\u00edt\u00f3g\u00e9pek \u00e9s tartoz\u00e9kaik \u2013 23.297-BV Leveranciers IT middelen",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/91528-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Heemstede",
+        "value_eur": 1051085.43,
+        "end_date": "2024-03-05",
+        "cpv": "72260000",
+        "title": "Hollandia \u2013 Szoftverrel kapcsolatos szolg\u00e1ltat\u00e1sok \u2013 Microsoft Licenties VNG Framework",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/134771-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Omgevingsdienst Regio Arnhem",
+        "value_eur": 417634.97,
+        "end_date": "2024-05-15",
+        "cpv": "72260000",
+        "title": "Hollandia \u2013 Szoftverrel kapcsolatos szolg\u00e1ltat\u00e1sok \u2013 Microsoft licenties",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/287093-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Ministerie van Economische Zaken en Klimaat, Rijksdienst voor Ondernemend Nederland (RVO)",
+        "value_eur": 80000.0,
+        "end_date": "2024-06-03",
+        "cpv": "30200000",
+        "title": "Hollandia \u2013 Sz\u00e1m\u00edt\u00f3g\u00e9pek \u00e9s tartoz\u00e9kaik \u2013 ICT werkplek Accessoires en Android Devices",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/324649-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Terneuzen",
+        "value_eur": 2500000.0,
+        "end_date": "2024-06-19",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Europese aanbesteding Softwarebroker 2024",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/362401-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Zaanstad",
+        "value_eur": 2400000.0,
+        "end_date": "2024-07-01",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Microsoft Enterprise Agreement",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/388608-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Inkoopsamenwerking Noord Veluwe (ISNV)",
+        "value_eur": 7000000.0,
+        "end_date": "2024-08-12",
+        "cpv": "30200000",
+        "title": "Hollandia \u2013 Sz\u00e1m\u00edt\u00f3g\u00e9pek \u00e9s tartoz\u00e9kaik \u2013 Raamovereenkomst levering ICT hardware voor ISNV",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/483716-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "GGD Flevoland",
+        "value_eur": 1197529.46,
+        "end_date": "2024-09-10",
+        "cpv": "48920000",
+        "title": "Hollandia \u2013 Irodaautomatiz\u00e1l\u00e1si szoftvercsomag \u2013 Europese Aanbesteding Renewal Enterprise Agreement Microsoftlicenties",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/541317-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Avans Hogeschool te Tilburg",
+        "value_eur": null,
+        "end_date": "2024-10-11",
+        "cpv": "32422000",
+        "title": "Hollandia \u2013 H\u00e1l\u00f3zati alkatr\u00e9szek \u2013 Broker ICT Hardware Backoffice + Broker Software IAM en Privacy & Security",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/616128-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Heemskerk",
+        "value_eur": 793879.0,
+        "end_date": "2024-11-08",
+        "cpv": "72268000",
+        "title": "Hollandia \u2013 Szoftverell\u00e1t\u00e1si szolg\u00e1ltat\u00e1sok \u2013 Microsoft licenties",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/681636-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Oss",
+        "value_eur": null,
+        "end_date": "2024-12-11",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Raamovereenkomst Kantoor-, beheer- en systeemsoftware",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/755687-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Sociaal-Economische Raad - SER",
+        "value_eur": 1300000.0,
+        "end_date": "2024-12-16",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Software Broker II",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/767837-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Valkenburg aan de Geul",
+        "value_eur": 330210.0,
+        "end_date": "2025-01-23",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Microsoft licenties volgens VNG GT-Microsoft framework",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/48258-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "IJsselgemeenten",
+        "value_eur": 3000.0,
+        "end_date": "2025-02-25",
+        "cpv": "30200000",
+        "title": "Hollandia \u2013 Sz\u00e1m\u00edt\u00f3g\u00e9pek \u00e9s tartoz\u00e9kaik \u2013 Raamovereenkomst Devices",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/125395-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Rucphen",
+        "value_eur": 495833.76,
+        "end_date": "2025-03-19",
+        "cpv": "48600000",
+        "title": "Hollandia \u2013 Adatb\u00e1zis-kezel\u0151 \u00e9s oper\u00e1ci\u00f3srendszer-szoftvercsomag \u2013 Levering Microsoftlicenties gemeente Rucphen",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/176481-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Gouda",
+        "value_eur": 21000000.0,
+        "end_date": "2025-05-13",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 leverancier (broker) voor het leveren van Standaardsoftware en Gerelateerde dienstverlening",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/307480-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "GGD Groningen en Veiligheidsregio Groningen (p.a gemeente Groningen)",
+        "value_eur": 7400000.0,
+        "end_date": "2025-05-28",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Microsoft licenties voor GGD en Veiligheidsregio Groningen p/a gemeente Groningen",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/343876-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Den Helder",
+        "value_eur": 759909.0,
+        "end_date": "2025-06-12",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Leveren van Microsoft 365 licenties incl. dienstverlening",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/380754-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Breda",
+        "value_eur": 22000000.0,
+        "end_date": "2025-06-27",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Reseller voor Microsoft diensten en producten gemeente Breda",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/417296-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Stichting Bevolkingsonderzoek Nederland",
+        "value_eur": null,
+        "end_date": "2025-07-10",
+        "cpv": "30200000",
+        "title": "Hollandia \u2013 Sz\u00e1m\u00edt\u00f3g\u00e9pek \u00e9s tartoz\u00e9kaik \u2013 Hardware werkplekken",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/450195-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Texel",
+        "value_eur": 800000.0,
+        "end_date": "2025-07-16",
+        "cpv": "48218000",
+        "title": "Hollandia \u2013 Licenckezel\u0151 szoftvercsomag \u2013 Microsoft 365 licenties Texel 2025",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/462685-2025",
+        "public_sector": true
+      }
+    ]
+  },
+  {
+    "id": "f797affc-9a2c-53bc-bf9e-dd8aaeb19524",
+    "slug": "softwareone",
+    "name": "SoftwareONE Netherlands B.V.",
+    "public_awards": 16,
+    "buyers": [
+      "Centraal Bureau Rijvaardigheidsbewijzen",
+      "GGD regio Utrecht",
+      "Gemeente Assen",
+      "Gemeente Ede",
+      "Gemeente Noordenveld",
+      "Gemeente Oosterhout",
+      "Gemeente Vlissingen",
+      "Gemeente Westerkwartier",
+      "Inkoopsamenwerking Noord Veluwe (ISNV)",
+      "Provincie Drenthe",
+      "Provincie Gelderland",
+      "Regionale ICT-Dienst Utrecht",
+      "SURF B.V.",
+      "Veiligheidsregio Zaanstreek-Waterland",
+      "gemeente Doetinchem",
+      "gemeente Westland"
+    ],
+    "largest_award_eur": 48000000.0,
+    "cpv_divisions": [
+      "48",
+      "72"
+    ],
+    "references": [
+      {
+        "buyer": "Gemeente Oosterhout",
+        "value_eur": 48000000.0,
+        "end_date": "2024-03-21",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Software reseller Equalit 2023",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/171809-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Provincie Gelderland",
+        "value_eur": 20000000.0,
+        "end_date": "2024-06-27",
+        "cpv": "72268000",
+        "title": "Hollandia \u2013 Szoftverell\u00e1t\u00e1si szolg\u00e1ltat\u00e1sok \u2013 Softwarebroker Standaardsoftware",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/381091-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "SURF B.V.",
+        "value_eur": 4500000.0,
+        "end_date": "2024-07-02",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Oracle Technology licenties 2024",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/392565-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Veiligheidsregio Zaanstreek-Waterland",
+        "value_eur": null,
+        "end_date": "2024-07-16",
+        "cpv": "72260000",
+        "title": "Hollandia \u2013 Szoftverrel kapcsolatos szolg\u00e1ltat\u00e1sok \u2013 softwarebroker, levering licenties en aanverwante dienstverlening",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/424497-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "GGD regio Utrecht",
+        "value_eur": null,
+        "end_date": "2024-07-16",
+        "cpv": "72260000",
+        "title": "Hollandia \u2013 Szoftverrel kapcsolatos szolg\u00e1ltat\u00e1sok \u2013 Softwarebroker",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/425157-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Inkoopsamenwerking Noord Veluwe (ISNV)",
+        "value_eur": 689000.0,
+        "end_date": "2024-08-09",
+        "cpv": "48517000",
+        "title": "Hollandia \u2013 IT-szoftvercsomag \u2013 Microsoft licenties Gemeente Nunspeet",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/481864-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Noordenveld",
+        "value_eur": null,
+        "end_date": "2024-10-17",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Europees openbare aanbesteding voor de brokerfunctie standaardsoftware",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/628795-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Vlissingen",
+        "value_eur": 13500000.0,
+        "end_date": "2024-11-05",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Europese aanbesteding softwarelicenties",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/672627-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Regionale ICT-Dienst Utrecht",
+        "value_eur": 552600.0,
+        "end_date": "2024-11-13",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Europese aanbesteding softwarelicenties",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/689666-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Assen",
+        "value_eur": 15000000.0,
+        "end_date": "2024-12-13",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Europees openbare aanbesteding Raamovereenkomst Software Broker",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/762952-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "gemeente Westland",
+        "value_eur": 24000000.0,
+        "end_date": "2025-01-08",
+        "cpv": "72268000",
+        "title": "Hollandia \u2013 Szoftverell\u00e1t\u00e1si szolg\u00e1ltat\u00e1sok \u2013 Softwarebroker Gemeente Westland 2025",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/10033-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Centraal Bureau Rijvaardigheidsbewijzen",
+        "value_eur": 30000000.0,
+        "end_date": "2025-03-07",
+        "cpv": "72268000",
+        "title": "Hollandia \u2013 Szoftverell\u00e1t\u00e1si szolg\u00e1ltat\u00e1sok \u2013 Levering Standaard Software en aanverwante dienstverlening",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/150758-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Westerkwartier",
+        "value_eur": null,
+        "end_date": "2025-06-10",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Software Broker",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/370326-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "gemeente Doetinchem",
+        "value_eur": 1857231.2,
+        "end_date": "2025-06-24",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Microsoft licenties 2025-2026",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/404935-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Provincie Drenthe",
+        "value_eur": 12000000.0,
+        "end_date": "2025-06-27",
+        "cpv": "72260000",
+        "title": "Hollandia \u2013 Szoftverrel kapcsolatos szolg\u00e1ltat\u00e1sok \u2013 Softwarebroker",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/415921-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Ede",
+        "value_eur": 6500000.0,
+        "end_date": "2025-07-18",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Broker licentiesoftware en daaraan gerelateerde dienstverlening",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/470377-2025",
+        "public_sector": true
+      }
+    ]
+  },
+  {
+    "id": "580cced1-b50e-5e39-b1b8-c6ab9657f9f5",
+    "slug": "centric",
+    "name": "Centric B.V.",
+    "public_awards": 16,
+    "buyers": [
+      "Gemeente Buren",
+      "Gemeente Den Helder",
+      "Gemeente Gorinchem",
+      "Gemeente Heemstede",
+      "Gemeente Medemblik",
+      "Gemeente Noordoostpolder",
+      "Gemeente Oldambt",
+      "Gemeente Scherpenzeel",
+      "Gemeente Westerwolde",
+      "Gemeente Winterswijk",
+      "Gemeente Zeist",
+      "Regionale ICT-Dienst Utrecht",
+      "Stichting Etherreclame",
+      "Stichting Nederlands Instituut voor Beeld en Geluid"
+    ],
+    "largest_award_eur": 14600000.0,
+    "cpv_divisions": [
+      "48",
+      "72",
+      "79"
+    ],
+    "references": [
+      {
+        "buyer": "Gemeente Oldambt",
+        "value_eur": 700000.0,
+        "end_date": "2024-01-02",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 De levering, implementatie en onderhoud van backoffice applicaties",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/2047-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Westerwolde",
+        "value_eur": null,
+        "end_date": "2024-01-31",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Levering en onderhoud software applicaties",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/64074-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Medemblik",
+        "value_eur": 1915700.0,
+        "end_date": "2024-03-20",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Levering, implementatie, het beheer en onderhoud van een financi\u00eble Saas-oplossing",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/167090-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Stichting Etherreclame",
+        "value_eur": 14600000.0,
+        "end_date": "2024-04-04",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Contractering van een IT-partner ten behoeve van de ontwikkeling (en beheer) van STARlight 2.0",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/198535-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Gorinchem",
+        "value_eur": 1000000.0,
+        "end_date": "2024-05-24",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Financieel systeem",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/306136-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Buren",
+        "value_eur": 1183165.0,
+        "end_date": "2024-06-13",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Levering, implementatie en beheer van een financi\u00eble SaaS-applicatie",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/350688-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Den Helder",
+        "value_eur": 366635.89,
+        "end_date": "2024-07-12",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Levering en continu\u00efteit van onderhoud voor backoffice-applicaties van Centric",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/418194-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Noordoostpolder",
+        "value_eur": 340000.0,
+        "end_date": "2024-10-07",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Aankondiging van vrijwillige transparantie vooraf: Digitale Belastingbalie",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/602209-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Heemstede",
+        "value_eur": null,
+        "end_date": "2024-11-29",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Oracle-Centric Melodies licenties",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/731190-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Stichting Nederlands Instituut voor Beeld en Geluid",
+        "value_eur": 1892000.0,
+        "end_date": "2024-12-12",
+        "cpv": "79620000",
+        "title": "Hollandia \u2013 Szem\u00e9lyzettel \u00e9s ideiglenes szem\u00e9lyzettel val\u00f3 ell\u00e1t\u00e1si szolg\u00e1ltat\u00e1sok \u2013 Inhuur Werkplekbeheerders en Systeembeheerders",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/760583-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Heemstede",
+        "value_eur": 1198239.0,
+        "end_date": "2025-01-15",
+        "cpv": "72200000",
+        "title": "Hollandia \u2013 Szoftverprogramoz\u00e1si \u00e9s tan\u00e1csad\u00e1si szolg\u00e1ltat\u00e1sok \u2013 Software Financieel Systeem - gemeente Heemstede",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/28251-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Winterswijk",
+        "value_eur": 950000.0,
+        "end_date": "2025-01-31",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Aankondiging in geval van vrijwillige transparantie vooraf",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/68423-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Regionale ICT-Dienst Utrecht",
+        "value_eur": 3104944.1,
+        "end_date": "2025-02-11",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Burgerzaken software",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/91982-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Scherpenzeel",
+        "value_eur": 757400.0,
+        "end_date": "2025-05-05",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Gemeente Scherpenzeel - Applicatie Sociaal Domein",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/285531-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Medemblik",
+        "value_eur": 580927.9,
+        "end_date": "2025-05-08",
+        "cpv": "72200000",
+        "title": "Hollandia \u2013 Szoftverprogramoz\u00e1si \u00e9s tan\u00e1csad\u00e1si szolg\u00e1ltat\u00e1sok \u2013 Vergunningverlening, Toezicht en Handhaving (VTH) applicatie",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/295313-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Zeist",
+        "value_eur": 648350.0,
+        "end_date": "2025-07-08",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Vergunning-, Toezicht- en Handhaving software Omgevingswet",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/441766-2025",
+        "public_sector": true
+      }
+    ]
+  },
+  {
+    "id": "1efc21f3-5c13-534e-90c8-7fc9dd43d6e4",
+    "slug": "pqr",
+    "name": "PQR B.V.",
+    "public_awards": 14,
+    "buyers": [
+      "Belastingdienst",
+      "GGD Flevoland",
+      "Gemeente Ede",
+      "Gemeente Haarlem",
+      "Gemeente Hilversum",
+      "Gemeente Nieuwegein",
+      "Gemeente S\u00fadwest-Frysl\u00e2n",
+      "Gemeente Terneuzen",
+      "Gemeente Utrecht",
+      "Gemeente Wageningen",
+      "Gemeente Zoetermeer",
+      "IJsselgemeenten",
+      "Universiteit Maastricht"
+    ],
+    "largest_award_eur": 10000000.0,
+    "cpv_divisions": [
+      "30",
+      "48",
+      "50",
+      "51",
+      "72"
+    ],
+    "references": [
+      {
+        "buyer": "Belastingdienst",
+        "value_eur": 460000.0,
+        "end_date": "2024-01-10",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 VDI Benchmark Tooling",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/16506-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "GGD Flevoland",
+        "value_eur": 166080.0,
+        "end_date": "2024-05-22",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 EUA Moderne Werkplek",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/302126-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Haarlem",
+        "value_eur": 1353832.9,
+        "end_date": "2024-07-22",
+        "cpv": "30200000",
+        "title": "Hollandia \u2013 Sz\u00e1m\u00edt\u00f3g\u00e9pek \u00e9s tartoz\u00e9kaik \u2013 Vervanging Hardware Datacenters",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/436737-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Zoetermeer",
+        "value_eur": 4000000.0,
+        "end_date": "2024-08-02",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Hyper Converged Infrastructure en aanverwante dienstverlening",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/466715-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Hilversum",
+        "value_eur": 750000.0,
+        "end_date": "2024-08-06",
+        "cpv": "48820000",
+        "title": "Hollandia \u2013 Szerverek \u2013 Levering servers en storage en aanverwante diensten",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/471722-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Nieuwegein",
+        "value_eur": null,
+        "end_date": "2024-08-23",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Levering, implementatie en beheer Private en Public IAAS ICT-hardware-infrastructuur als een dienst",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/508508-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Utrecht",
+        "value_eur": null,
+        "end_date": "2024-09-02",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Windows- en Linux beheer en projecten",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/524291-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente S\u00fadwest-Frysl\u00e2n",
+        "value_eur": null,
+        "end_date": "2024-09-10",
+        "cpv": "48820000",
+        "title": "Hollandia \u2013 Szerverek \u2013 Vernieuwing serverinfrastructuur",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/541726-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente S\u00fadwest-Frysl\u00e2n",
+        "value_eur": null,
+        "end_date": "2024-09-10",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Aanbesteding Licenties Nutanix",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/541961-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Terneuzen",
+        "value_eur": 935000.0,
+        "end_date": "2024-11-25",
+        "cpv": "72700000",
+        "title": "Hollandia \u2013 Sz\u00e1m\u00edt\u00f3g\u00e9pes h\u00e1l\u00f3zati szolg\u00e1ltat\u00e1sok \u2013 Vernieuwing datacentrum en uitwijklocatie (IaaS)",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/715860-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Universiteit Maastricht",
+        "value_eur": 9000000.0,
+        "end_date": "2024-12-10",
+        "cpv": "48800000",
+        "title": "Hollandia \u2013 Inform\u00e1ci\u00f3s rendszerek \u00e9s szerverek \u2013 Servers en storage",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/755055-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Wageningen",
+        "value_eur": 4286519.0,
+        "end_date": "2025-01-20",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Europese Aanbesteding ICT-dienstverlening obv private en public IAAS",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/38331-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Ede",
+        "value_eur": 10000000.0,
+        "end_date": "2025-04-15",
+        "cpv": "48800000",
+        "title": "Hollandia \u2013 Inform\u00e1ci\u00f3s rendszerek \u00e9s szerverek \u2013 Raamovereenkomst netwerk- en serverhardware",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/246423-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "IJsselgemeenten",
+        "value_eur": 607826.12,
+        "end_date": "2025-05-07",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 vSphere/Horizon subscriptions",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/291587-2025",
+        "public_sector": true
+      }
+    ]
+  },
+  {
+    "id": "e4e97ad0-f649-5aae-91f7-c712e91ec53f",
+    "slug": "unit4 business software",
+    "name": "UNIT4 Business Software Netherlands B.V.",
+    "public_awards": 13,
+    "buyers": [
+      "Gemeente Breda",
+      "Gemeente Ede",
+      "Gemeente Heerenveen",
+      "Gemeente Heusden",
+      "Gemeente Hoeksche Waard",
+      "Gemeente Meierijstad",
+      "Gemeente Noordoostpolder",
+      "Gemeente Venlo",
+      "Gemeente Vlaardingen",
+      "Gemeente Zaanstad",
+      "Gemeente Zwolle",
+      "Stichting Hogerberoepsonderwijs Haaglanden",
+      "de gemeente Gennep"
+    ],
+    "largest_award_eur": 3000000.0,
+    "cpv_divisions": [
+      "48",
+      "72"
+    ],
+    "references": [
+      {
+        "buyer": "Gemeente Meierijstad",
+        "value_eur": 1397025.0,
+        "end_date": "2024-01-09",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Integraal financieel systeem",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/14014-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Heusden",
+        "value_eur": 870518.81,
+        "end_date": "2024-01-26",
+        "cpv": "72268000",
+        "title": "Hollandia \u2013 Szoftverell\u00e1t\u00e1si szolg\u00e1ltat\u00e1sok \u2013 Vernieuwen Financieel systeem gemeente Heusden",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/54469-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Venlo",
+        "value_eur": 1435569.73,
+        "end_date": "2024-03-04",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Europese openbare aanbestedingsprocedure Vernieuwing financieel informatie systeem gemeente Venlo",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/132363-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Hoeksche Waard",
+        "value_eur": 1648673.0,
+        "end_date": "2024-04-23",
+        "cpv": "72260000",
+        "title": "Hollandia \u2013 Szoftverrel kapcsolatos szolg\u00e1ltat\u00e1sok \u2013 Financieel informatiesysteem",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/241396-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Vlaardingen",
+        "value_eur": null,
+        "end_date": "2024-05-28",
+        "cpv": "48442000",
+        "title": "Hollandia \u2013 Szoftvercsomag p\u00e9nz\u00fcgyi rendszerekhez \u2013 Integraal financieel systeem",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/312326-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Zwolle",
+        "value_eur": 172662.0,
+        "end_date": "2024-12-04",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Financieel systeem (SaaS)",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/740098-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Noordoostpolder",
+        "value_eur": 650000.0,
+        "end_date": "2025-01-08",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Aankondiging van vrijwillige transparantie financieel systeem",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/10380-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Zaanstad",
+        "value_eur": 2523843.9,
+        "end_date": "2025-01-17",
+        "cpv": "72260000",
+        "title": "Hollandia \u2013 Szoftverrel kapcsolatos szolg\u00e1ltat\u00e1sok \u2013 Vervanging Financieel systeem Enterprise One",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/34137-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Breda",
+        "value_eur": 1458139.03,
+        "end_date": "2025-02-17",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Financieel systeem gemeente Breda",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/105264-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Stichting Hogerberoepsonderwijs Haaglanden",
+        "value_eur": 3000000.0,
+        "end_date": "2025-03-27",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Inkoop van toekomstbestendige eFinance SaaS applicatie voor De HHs",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/197090-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "de gemeente Gennep",
+        "value_eur": 1000000.0,
+        "end_date": "2025-04-07",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Integraal financieel systeem - gemeente Gennep",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/222372-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Heerenveen",
+        "value_eur": null,
+        "end_date": "2025-05-15",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Nieuw financieel systeem - gemeente Heerenveen",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/312845-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Ede",
+        "value_eur": 968803.0,
+        "end_date": "2025-05-28",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Financieel pakket",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/345410-2025",
+        "public_sector": true
+      }
+    ]
+  },
+  {
+    "id": "2a87199c-8855-5a73-aef7-c8de5459f3b2",
+    "slug": "crayon",
+    "name": "CRAYON B.V.",
+    "public_awards": 11,
+    "buyers": [
+      "Gemeenschappelijke Gezondheidsdienst Zeeland",
+      "Gemeenschappelijke regeling Samenwerking De Bevelanden",
+      "Gemeente Halderberge",
+      "Gemeente Huizen",
+      "Gemeente Lansingerland",
+      "Veiligheidsregio Drenthe",
+      "Veiligheidsregio IJsselland",
+      "Veiligheidsregio Rotterdam-Rijnmond",
+      "Veiligheidsregio Zeeland",
+      "Veiligheidsregio Zuid-Limburg",
+      "gemeente Schouwen-Duiveland"
+    ],
+    "largest_award_eur": 6500000.0,
+    "cpv_divisions": [
+      "48",
+      "72"
+    ],
+    "references": [
+      {
+        "buyer": "Gemeente Halderberge",
+        "value_eur": null,
+        "end_date": "2024-03-19",
+        "cpv": "72212218",
+        "title": "Hollandia \u2013 Licenckezel\u0151 szoftverek fejleszt\u00e9s\u00e9vel kapcsolatos szolg\u00e1ltat\u00e1sok \u2013 Broker Microsoft-licenties",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/164512-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Lansingerland",
+        "value_eur": 2500000.0,
+        "end_date": "2024-05-16",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Microsoft Licenties",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/289208-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Huizen",
+        "value_eur": 1050000.0,
+        "end_date": "2024-08-30",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Microsoft Licenties E5",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/520375-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Veiligheidsregio IJsselland",
+        "value_eur": 3300000.0,
+        "end_date": "2024-09-26",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Microsoft Licenties",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/578193-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Veiligheidsregio Zeeland",
+        "value_eur": null,
+        "end_date": "2024-10-21",
+        "cpv": "48200000",
+        "title": "Hollandia \u2013 H\u00e1l\u00f3zati, internet- \u00e9s intranet-szoftvercsomag \u2013 Microsoft Licenties",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/634888-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeenschappelijke Gezondheidsdienst Zeeland",
+        "value_eur": 700774.36,
+        "end_date": "2024-11-26",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Microsoft Licenties 2025",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/719014-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Veiligheidsregio Zuid-Limburg",
+        "value_eur": 297488.9,
+        "end_date": "2024-12-09",
+        "cpv": "48300000",
+        "title": "Hollandia \u2013 Dokumentumk\u00e9sz\u00edt\u0151, rajzol\u00f3, k\u00e9pkezel\u0151, termel\u00e9s\u00fctemez\u0151 \u00e9s termel\u00e9kenys\u00e9gn\u00f6vel\u0151 szoftvercsomag \u2013 Softwarebroker",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/750440-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "gemeente Schouwen-Duiveland",
+        "value_eur": 5200000.0,
+        "end_date": "2025-01-09",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Software Licentie Partner 2025-2032",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/12939-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeenschappelijke regeling Samenwerking De Bevelanden",
+        "value_eur": 6500000.0,
+        "end_date": "2025-06-24",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Raamovereenkomst standaard softwarelicenties",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/403218-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Veiligheidsregio Rotterdam-Rijnmond",
+        "value_eur": 5100000.0,
+        "end_date": "2025-06-25",
+        "cpv": "72260000",
+        "title": "Hollandia \u2013 Szoftverrel kapcsolatos szolg\u00e1ltat\u00e1sok \u2013 Softwarelicenties en aanverwante dienstverlening",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/407874-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Veiligheidsregio Drenthe",
+        "value_eur": 4200000.0,
+        "end_date": "2025-07-09",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Software Broker",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/448216-2025",
+        "public_sector": true
+      }
+    ]
+  },
+  {
+    "id": "dbcd7d47-12eb-5aba-b403-3d1881a83a7e",
+    "slug": "protinus it",
+    "name": "Protinus IT B.V.",
+    "public_awards": 11,
+    "buyers": [
+      "Gemeente Dijk en Waard",
+      "Gemeente Dordrecht | servicegemeente Dordrecht",
+      "Gemeente Eindhoven",
+      "Gemeente Hardenberg",
+      "Gemeente Meierijstad",
+      "Gemeente Rotterdam",
+      "Gemeente Twenterand",
+      "Gemeente Vlaardingen",
+      "Gemeente Wassenaar",
+      "Provincie Noord-Brabant"
+    ],
+    "largest_award_eur": 36000000.0,
+    "cpv_divisions": [
+      "48",
+      "72"
+    ],
+    "references": [
+      {
+        "buyer": "Gemeente Twenterand",
+        "value_eur": null,
+        "end_date": "2024-02-06",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 EA Softwarebroker: Gemeenten Borne, Hof van Twente en Twenterand",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/78470-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Dijk en Waard",
+        "value_eur": 7500000.0,
+        "end_date": "2024-03-08",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Raamovereenkomst Software Broker",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/142229-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Wassenaar",
+        "value_eur": 24000000.0,
+        "end_date": "2024-03-08",
+        "cpv": "72260000",
+        "title": "Hollandia \u2013 Szoftverrel kapcsolatos szolg\u00e1ltat\u00e1sok \u2013 Software broker",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/143609-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Meierijstad",
+        "value_eur": 8000000.0,
+        "end_date": "2024-06-04",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Raamovereenkomst Software Broker",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/327373-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Vlaardingen",
+        "value_eur": 4500000.0,
+        "end_date": "2024-07-02",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 ICT Software Brokerdiensten",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/392498-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Eindhoven",
+        "value_eur": 24600000.0,
+        "end_date": "2024-07-30",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Software Broker t.b.v. gemeente Eindhoven",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/457905-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Provincie Noord-Brabant",
+        "value_eur": 36000000.0,
+        "end_date": "2024-08-14",
+        "cpv": "72268000",
+        "title": "Hollandia \u2013 Szoftverell\u00e1t\u00e1si szolg\u00e1ltat\u00e1sok \u2013 Software brokerdiensten (C2329132)",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/490963-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Dordrecht | servicegemeente Dordrecht",
+        "value_eur": 30000000.0,
+        "end_date": "2024-08-14",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Softwarebroker",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/491262-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Twenterand",
+        "value_eur": 32730000.0,
+        "end_date": "2024-10-30",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 EA Softwarebroker; Samen Twente, Noaberkracht Dinkelland en Tubbergen, gemeenten Hellendoorn, Oldenzaal, Rijssen-Holten en Wierden",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/661916-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Rotterdam",
+        "value_eur": null,
+        "end_date": "2025-04-11",
+        "cpv": "72268000",
+        "title": "Hollandia \u2013 Szoftverell\u00e1t\u00e1si szolg\u00e1ltat\u00e1sok \u2013 Inkoop Standaardsoftware en Gerelateerde Dienstverlening",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/237501-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Hardenberg",
+        "value_eur": null,
+        "end_date": "2025-05-16",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Softwarebroker",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/315496-2025",
+        "public_sector": true
+      }
+    ]
+  },
+  {
+    "id": "78f6978b-58db-5985-92eb-4ebb0bfa99d9",
+    "slug": "visma raet",
+    "name": "Visma Raet B.V.",
+    "public_awards": 10,
+    "buyers": [
+      "Gemeenschappelijke Regeling Avres",
+      "Gemeente Apeldoorn, team Inkoop",
+      "Gemeente Berkelland",
+      "Gemeente Gouda",
+      "Gemeente Medemblik",
+      "Gemeente Middelburg",
+      "Gemeente Smallingerland",
+      "Gemeente Tynaarlo",
+      "Gemeente Weststellingwerf",
+      "Veiligheidsregio Haaglanden"
+    ],
+    "largest_award_eur": 2402267.0,
+    "cpv_divisions": [
+      "48",
+      "72",
+      "75",
+      "79"
+    ],
+    "references": [
+      {
+        "buyer": "Gemeente Gouda",
+        "value_eur": 250000.0,
+        "end_date": "2024-03-28",
+        "cpv": "48450000",
+        "title": "Hollandia \u2013 Id\u0151elsz\u00e1mol\u00f3 vagy hum\u00e1ner\u0151forr\u00e1s-szoftvercsomag \u2013 e-HRM systeem",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/185418-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Tynaarlo",
+        "value_eur": 2402267.0,
+        "end_date": "2024-04-12",
+        "cpv": "79211110",
+        "title": "Hollandia \u2013 B\u00e9rsz\u00e1mfejt\u00e9si szolg\u00e1ltat\u00e1sok \u2013 e-HRM systeem gemeente Tynaarlo",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/218130-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeenschappelijke Regeling Avres",
+        "value_eur": 447081.96,
+        "end_date": "2024-05-15",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 eHRM - Avres",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/286859-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Berkelland",
+        "value_eur": 360000.0,
+        "end_date": "2024-07-03",
+        "cpv": "72260000",
+        "title": "Hollandia \u2013 Szoftverrel kapcsolatos szolg\u00e1ltat\u00e1sok \u2013 art 2:163d AW - HR software",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/394360-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Medemblik",
+        "value_eur": 795000.0,
+        "end_date": "2024-09-02",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 e-HRM- en Salarisapplicatie",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/524657-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Apeldoorn, team Inkoop",
+        "value_eur": null,
+        "end_date": "2024-10-14",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Salaris- en personeelsinformatiesysteem",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/620051-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Middelburg",
+        "value_eur": 230000.0,
+        "end_date": "2024-12-12",
+        "cpv": "48450000",
+        "title": "Hollandia \u2013 Id\u0151elsz\u00e1mol\u00f3 vagy hum\u00e1ner\u0151forr\u00e1s-szoftvercsomag \u2013 HR applicatie gemeente Middelburg",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/761666-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Veiligheidsregio Haaglanden",
+        "value_eur": 2000000.0,
+        "end_date": "2025-02-10",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Personeelsinformatie- en salarissysteem",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/90597-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Smallingerland",
+        "value_eur": 1500000.0,
+        "end_date": "2025-03-21",
+        "cpv": "48450000",
+        "title": "Hollandia \u2013 Id\u0151elsz\u00e1mol\u00f3 vagy hum\u00e1ner\u0151forr\u00e1s-szoftvercsomag \u2013 EA eHRM-systeem gemeente Smallingerland",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/183055-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Weststellingwerf",
+        "value_eur": 890000.0,
+        "end_date": "2025-03-28",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 eHRM systeem",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/200186-2025",
+        "public_sector": true
+      }
+    ]
+  },
+  {
+    "id": "fc3f0ab6-f5c6-5e93-ad0a-5f7228d428e5",
+    "slug": "visma roxit",
+    "name": "Visma Roxit B.V.",
+    "public_awards": 10,
+    "buyers": [
+      "Gemeenschappelijke Regeling Omgevingsdienst Regio Utrecht",
+      "Gemeente Arnhem",
+      "Gemeente Breda",
+      "Gemeente Haarlem",
+      "Gemeente Hoeksche Waard",
+      "Gemeente Nieuwkoop",
+      "Gemeente Noordoostpolder",
+      "Gemeente Terneuzen",
+      "Omgevingsdienst Groningen",
+      "Samenwerkingsorganisatie De Wolden Hoogeveen"
+    ],
+    "largest_award_eur": 1700001.69,
+    "cpv_divisions": [
+      "48",
+      "72"
+    ],
+    "references": [
+      {
+        "buyer": "Gemeenschappelijke Regeling Omgevingsdienst Regio Utrecht",
+        "value_eur": 500000.0,
+        "end_date": "2024-01-16",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Vrijwillige transparantie vooraf: uitbreiding op de (bestaande) functionaliteiten van het zaaksysteem Rx Mission",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/30103-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Arnhem",
+        "value_eur": 280000.0,
+        "end_date": "2024-02-27",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Software Omgevingswet",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/118705-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Haarlem",
+        "value_eur": 989160.0,
+        "end_date": "2024-03-13",
+        "cpv": "72260000",
+        "title": "Hollandia \u2013 Szoftverrel kapcsolatos szolg\u00e1ltat\u00e1sok \u2013 Applicatie voor Omgevingsplan, Omgevingsvisie, Voorbereidingsbesluit, Programma en toepasbare regels t.b.v. gemeente Haarlem",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/152024-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Samenwerkingsorganisatie De Wolden Hoogeveen",
+        "value_eur": null,
+        "end_date": "2024-11-13",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 EA Visma Roxit VTH-applicatie",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/690801-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Terneuzen",
+        "value_eur": 235000.0,
+        "end_date": "2025-03-11",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Europese aanbesteding VTH applicatie",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/156311-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Nieuwkoop",
+        "value_eur": 1335407.5,
+        "end_date": "2025-04-08",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Levering, implementatie en beheer van VTH-,plan- en regelbeheersoftware als een dienst",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/226216-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Hoeksche Waard",
+        "value_eur": 58685.0,
+        "end_date": "2025-04-16",
+        "cpv": "72210000",
+        "title": "Hollandia \u2013 Szoftvercsomag-programoz\u00e1si szolg\u00e1ltat\u00e1sok \u2013 Bekendmaking voornemen gunning aanvullende opdracht archiefmodule RX.Mission",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/248760-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Noordoostpolder",
+        "value_eur": 750000.0,
+        "end_date": "2025-06-25",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Aankondiging van vrijwillige transparantie VTH-applicatie",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/410915-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Omgevingsdienst Groningen",
+        "value_eur": 1700001.69,
+        "end_date": "2025-06-30",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 VTH-Software omgevingsdienst",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/420935-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Breda",
+        "value_eur": 787957.0,
+        "end_date": "2025-07-17",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Plan- en regelsoftware Omgevingswet Gemeente Breda",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/466817-2025",
+        "public_sector": true
+      }
+    ]
+  },
+  {
+    "id": "87d95a9a-ea9f-5bfc-b5bf-891f76f53027",
+    "slug": "visma circle",
+    "name": "Visma Circle B.V.",
+    "public_awards": 10,
+    "buyers": [
+      "Gemeente Berg en Dal",
+      "Gemeente Bergen op Zoom",
+      "Gemeente Geertruidenberg",
+      "Gemeente Horst aan de Maas",
+      "Gemeente Opmeer",
+      "Gemeente Waalwijk",
+      "Hogeschool Inholland",
+      "IJsselgemeenten",
+      "Omgevingsdienst Zuid-Holland Zuid",
+      "Technische Universiteit Eindhoven"
+    ],
+    "largest_award_eur": 1300000.0,
+    "cpv_divisions": [
+      "48",
+      "72"
+    ],
+    "references": [
+      {
+        "buyer": "Gemeente Waalwijk",
+        "value_eur": 284525.0,
+        "end_date": "2024-03-21",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Zaaksysteem",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/169000-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Omgevingsdienst Zuid-Holland Zuid",
+        "value_eur": null,
+        "end_date": "2024-07-03",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Aanschaf informatie- en archiefmanagementsysteem",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/396939-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Berg en Dal",
+        "value_eur": null,
+        "end_date": "2024-07-18",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Zaaksysteem",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/432151-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Horst aan de Maas",
+        "value_eur": 1135383.0,
+        "end_date": "2024-08-02",
+        "cpv": "72200000",
+        "title": "Hollandia \u2013 Szoftverprogramoz\u00e1si \u00e9s tan\u00e1csad\u00e1si szolg\u00e1ltat\u00e1sok \u2013 De levering, onderhoud en implementatie van een SaaS-oplossing voor een Zaaksysteem voor de gemeenten Horst aan de Maas en Venray.",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/467437-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Hogeschool Inholland",
+        "value_eur": 626715.0,
+        "end_date": "2024-12-24",
+        "cpv": "72200000",
+        "title": "Hollandia \u2013 Szoftverprogramoz\u00e1si \u00e9s tan\u00e1csad\u00e1si szolg\u00e1ltat\u00e1sok \u2013 Archiveringssysteem en DMS (document managementsysteem).",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/794952-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Geertruidenberg",
+        "value_eur": 279440.0,
+        "end_date": "2025-01-07",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Zaak-/archiefsysteem",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/6386-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Opmeer",
+        "value_eur": 383930.99,
+        "end_date": "2025-01-13",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 zaaksysteem Opmeer",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/19743-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "IJsselgemeenten",
+        "value_eur": 1300000.0,
+        "end_date": "2025-02-19",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Zaaksysteem",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/110051-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Technische Universiteit Eindhoven",
+        "value_eur": null,
+        "end_date": "2025-03-17",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Archiefoplossing",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/171658-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Bergen op Zoom",
+        "value_eur": null,
+        "end_date": "2025-03-26",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Duurzame Digitale Dienstverlening",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/193423-2025",
+        "public_sector": true
+      }
+    ]
+  },
+  {
+    "id": "b8b16ad4-22f9-5f7c-bc9f-083f41011082",
+    "slug": "ilionx",
+    "name": "Ilionx",
+    "public_awards": 8,
+    "buyers": [
+      "Cogas Facilitaire Diensten B.V.",
+      "Gemeente Beekdaelen",
+      "Gemeente Eindhoven",
+      "Gemeente Sluis",
+      "Gemeente Stein",
+      "Gemeente Zaanstad",
+      "Gemeente Zeist",
+      "Waterschap Brabantse Delta"
+    ],
+    "largest_award_eur": 170000000.0,
+    "cpv_divisions": [
+      "72"
+    ],
+    "references": [
+      {
+        "buyer": "Gemeente Zaanstad",
+        "value_eur": null,
+        "end_date": "2024-01-19",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Onderhoud en consultancy Betty Blocks applicaties",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/39518-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Sluis",
+        "value_eur": 300000.0,
+        "end_date": "2024-07-30",
+        "cpv": "72200000",
+        "title": "Hollandia \u2013 Szoftverprogramoz\u00e1si \u00e9s tan\u00e1csad\u00e1si szolg\u00e1ltat\u00e1sok \u2013 Zaaksysteem",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/456451-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Waterschap Brabantse Delta",
+        "value_eur": 337400.0,
+        "end_date": "2024-12-19",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Development en support Microsoft Power Platform",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/779162-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Beekdaelen",
+        "value_eur": 500000.0,
+        "end_date": "2025-01-08",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Zaaksysteem",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/9822-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Stein",
+        "value_eur": null,
+        "end_date": "2025-01-28",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Werkplekbeheer",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/58000-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Eindhoven",
+        "value_eur": 540000.0,
+        "end_date": "2025-04-29",
+        "cpv": "72220000",
+        "title": "Hollandia \u2013 Rendszer- \u00e9s m\u0171szaki tan\u00e1csad\u00f3 szolg\u00e1ltat\u00e1sok \u2013 Ondersteuning en advies Microsoft Dynamics CRM",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/275934-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Cogas Facilitaire Diensten B.V.",
+        "value_eur": null,
+        "end_date": "2025-05-13",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 SOC/SIEM dienstverlening IT/OT",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/306708-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Zeist",
+        "value_eur": 276000.0,
+        "end_date": "2025-07-18",
+        "cpv": "72260000",
+        "title": "Hollandia \u2013 Szoftverrel kapcsolatos szolg\u00e1ltat\u00e1sok \u2013 Vrijwillige transparantie Planning & Control software",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/472511-2025",
+        "public_sector": true
+      }
+    ]
+  },
+  {
+    "id": "4b69747f-c4a3-5063-984a-e69f38a0b2dd",
+    "slug": "dustin",
+    "name": "Dustin Netherlands B.V.",
+    "public_awards": 8,
+    "buyers": [
+      "Gemeente Apeldoorn, team Inkoop",
+      "Gemeente Beverwijk",
+      "Gemeente Bodegraven - Reeuwijk",
+      "Gemeente Deventer",
+      "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties",
+      "Stichting Hogeschool Rotterdam",
+      "Stichting Lucas Onderwijs",
+      "Waterschap Vechtstromen"
+    ],
+    "largest_award_eur": 7800000.0,
+    "cpv_divisions": [
+      "30",
+      "32",
+      "48",
+      "50",
+      "51",
+      "72"
+    ],
+    "references": [
+      {
+        "buyer": "Gemeente Deventer",
+        "value_eur": 7800000.0,
+        "end_date": "2024-06-12",
+        "cpv": "72600000",
+        "title": "Hollandia \u2013 Sz\u00e1m\u00edt\u00f3g\u00e9pes t\u00e1mogat\u00e1si \u00e9s tan\u00e1csad\u00f3i szolg\u00e1ltat\u00e1sok \u2013 Logistieke dienste met betrekking tot IT-hardware",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/347053-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Beverwijk",
+        "value_eur": 747579.93,
+        "end_date": "2024-07-01",
+        "cpv": "72268000",
+        "title": "Hollandia \u2013 Szoftverell\u00e1t\u00e1si szolg\u00e1ltat\u00e1sok \u2013 Microsoft licenties",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/388397-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Bodegraven - Reeuwijk",
+        "value_eur": 524090.0,
+        "end_date": "2024-09-25",
+        "cpv": "48920000",
+        "title": "Hollandia \u2013 Irodaautomatiz\u00e1l\u00e1si szoftvercsomag \u2013 Microsoft Licenties",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/576283-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Waterschap Vechtstromen",
+        "value_eur": 7000000.0,
+        "end_date": "2025-02-14",
+        "cpv": "32424000",
+        "title": "Hollandia \u2013 H\u00e1l\u00f3zati infrastrukt\u00fara \u2013 De aanschaf en levering van IT-infrastructuur hardware",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/101303-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Apeldoorn, team Inkoop",
+        "value_eur": 7500000.0,
+        "end_date": "2025-02-25",
+        "cpv": "30230000",
+        "title": "Hollandia \u2013 Sz\u00e1m\u00edt\u00f3g\u00e9ppel kapcsolatos eszk\u00f6z\u00f6k \u2013 Raamovereenkomst Werkplekapparatuur",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/123556-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Stichting Hogeschool Rotterdam",
+        "value_eur": null,
+        "end_date": "2025-03-28",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Werkplekken & Servers, Infrastructuur, netwerkcomponenten",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/200965-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Stichting Lucas Onderwijs",
+        "value_eur": 200000.0,
+        "end_date": "2025-06-10",
+        "cpv": "30200000",
+        "title": "Hollandia \u2013 Sz\u00e1m\u00edt\u00f3g\u00e9pek \u00e9s tartoz\u00e9kaik \u2013 Aanschaf van IT-hardware en bijbehorende dienstverlening",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/371490-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Ministerie van Binnenlandse Zaken en Koninkrijksrelaties",
+        "value_eur": 5266200.0,
+        "end_date": "2025-06-26",
+        "cpv": "72500000",
+        "title": "Hollandia \u2013 Sz\u00e1m\u00edt\u00f3g\u00e9pekkel kapcsolatos szolg\u00e1ltat\u00e1sok \u2013 BZK-SSC-ICT-EA Landelijke ICT-ondersteuning",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/414793-2025",
+        "public_sector": true
+      }
+    ]
+  },
+  {
+    "id": "1c5f3b7d-b8d7-5e81-a465-169aede2be5d",
+    "slug": "kpn",
+    "name": "KPN",
+    "public_awards": 7,
+    "buyers": [
+      "Belastingsamenwerking Gouwe-Rijnland",
+      "De Dienst voor het kadaster en de openbare registers (het Kadaster)",
+      "Gemeente Lansingerland",
+      "Ministerie van Defensie",
+      "Provincie Gelderland",
+      "Waterschapsbedrijf Limburg"
+    ],
+    "largest_award_eur": 22000000.0,
+    "cpv_divisions": [
+      "48",
+      "64",
+      "72"
+    ],
+    "references": [
+      {
+        "buyer": "Belastingsamenwerking Gouwe-Rijnland",
+        "value_eur": 480000.0,
+        "end_date": "2024-06-04",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Uitbreiding van Opdracht voor ICT-infrastructuur, ICT-werkplekken (hardware en software), hosting en dienstverlen",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/328329-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "De Dienst voor het kadaster en de openbare registers (het Kadaster)",
+        "value_eur": 21344185.0,
+        "end_date": "2024-09-17",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Hybrid Cloud Services",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/556124-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Waterschapsbedrijf Limburg",
+        "value_eur": 2000000.0,
+        "end_date": "2024-10-22",
+        "cpv": "64200000",
+        "title": "Hollandia \u2013 T\u00e1vk\u00f6zl\u00e9si szolg\u00e1ltat\u00e1sok \u2013 Mobiele telefonie & WAN",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/638329-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Ministerie van Defensie",
+        "value_eur": 22000000.0,
+        "end_date": "2025-02-21",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Instandhouding van hardware, licenties & dienstverlening op bestaande beveiligde verbindingen \u201cBeveiligingsoploss",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/116933-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Lansingerland",
+        "value_eur": null,
+        "end_date": "2025-04-08",
+        "cpv": "72400000",
+        "title": "Hollandia \u2013 Internetszolg\u00e1ltat\u00e1sok \u2013 Internetdiensten en aansluiting op het GGI-Netwerk",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/225578-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Provincie Gelderland",
+        "value_eur": 9900000.0,
+        "end_date": "2025-04-29",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Managed werkplek diensten, ICT-Servicedesk en werkplekondersteuning",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/275099-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Provincie Gelderland",
+        "value_eur": 850000.0,
+        "end_date": "2025-04-29",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Managed Security Diensten",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/275261-2025",
+        "public_sector": true
+      }
+    ]
+  },
+  {
+    "id": "0cda9700-eb62-5328-a94e-e3b9f248d613",
+    "slug": "open line managed services",
+    "name": "Open Line Managed Services B.V.",
+    "public_awards": 6,
+    "buyers": [
+      "Belastingsamenwerking voor Gemeenten en Waterschappen (BsGW)",
+      "GGD Zuid Limburg",
+      "Gemeente Eijsden-Margraten",
+      "Gemeente Heemskerk",
+      "Gemeente Stichtse Vecht",
+      "Waterschapsbedrijf Limburg"
+    ],
+    "largest_award_eur": 8193277.4,
+    "cpv_divisions": [
+      "30",
+      "32",
+      "48",
+      "72"
+    ],
+    "references": [
+      {
+        "buyer": "Gemeente Heemskerk",
+        "value_eur": 7392184.8,
+        "end_date": "2024-01-05",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 ICT outsourcing",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/8198-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Waterschapsbedrijf Limburg",
+        "value_eur": 650000.0,
+        "end_date": "2024-04-18",
+        "cpv": "72315000",
+        "title": "Hollandia \u2013 Adath\u00e1l\u00f3zat-kezel\u00e9si \u00e9s -t\u00e1mogat\u00e1si szolg\u00e1ltat\u00e1sok \u2013 Netwerk als dienst",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/229824-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Belastingsamenwerking voor Gemeenten en Waterschappen (BsGW)",
+        "value_eur": 1605143.0,
+        "end_date": "2024-07-18",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Hosting, storage en kantoorinfrastructuur voor Belastingsamenwerking Gemeenten en Waterschappen (BsGW)",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/430639-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Stichtse Vecht",
+        "value_eur": 1222960.0,
+        "end_date": "2024-07-19",
+        "cpv": "72510000",
+        "title": "Hollandia \u2013 Sz\u00e1m\u00edt\u00f3g\u00e9pekkel kapcsolatos \u00fcgyint\u00e9z\u00e9si szolg\u00e1ltat\u00e1sok \u2013 Outsourcing IT-infrastructuur- en beheerdiensten",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/434764-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "GGD Zuid Limburg",
+        "value_eur": 4087634.0,
+        "end_date": "2024-12-20",
+        "cpv": "72514000",
+        "title": "Hollandia \u2013 Sz\u00e1m\u00edt\u00f3g\u00e9pes l\u00e9tes\u00edtm\u00e9nykezel\u00e9si szolg\u00e1ltat\u00e1sok \u2013 Outsourcing IT-infrastructuur- en beheerdiensten",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/784211-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Eijsden-Margraten",
+        "value_eur": 8193277.4,
+        "end_date": "2025-03-13",
+        "cpv": "72510000",
+        "title": "Hollandia \u2013 Sz\u00e1m\u00edt\u00f3g\u00e9pekkel kapcsolatos \u00fcgyint\u00e9z\u00e9si szolg\u00e1ltat\u00e1sok \u2013 ICT aanbesteding",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/162787-2025",
+        "public_sector": true
+      }
+    ]
+  },
+  {
+    "id": "7e8ce8c6-f645-51ad-9b59-b7a0af00f019",
+    "slug": "ijk",
+    "name": "IJK B.V.",
+    "public_awards": 6,
+    "buyers": [
+      "Gemeente Best",
+      "Gemeente Waalwijk",
+      "Gemeente Waddinxveen",
+      "Stichting ICTU",
+      "Stichting Pantar Amsterdam",
+      "VISTA college"
+    ],
+    "largest_award_eur": 3372268.0,
+    "cpv_divisions": [
+      "48",
+      "72"
+    ],
+    "references": [
+      {
+        "buyer": "Stichting Pantar Amsterdam",
+        "value_eur": 1107429.0,
+        "end_date": "2024-01-18",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 eHRM- en Payrollsysteem inclusief payroll dienstverlening",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/34770-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Stichting ICTU",
+        "value_eur": null,
+        "end_date": "2024-02-13",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 ICTU bedrijfsvoeringsplatform (ERP)",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/91270-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Waddinxveen",
+        "value_eur": null,
+        "end_date": "2024-04-12",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Levering en implementatie e-HRM",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/217382-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Best",
+        "value_eur": 329999.2,
+        "end_date": "2024-05-06",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Personeels- en salarisadministratie software (E-HRM)",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/266847-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Waalwijk",
+        "value_eur": null,
+        "end_date": "2024-07-10",
+        "cpv": "48450000",
+        "title": "Hollandia \u2013 Id\u0151elsz\u00e1mol\u00f3 vagy hum\u00e1ner\u0151forr\u00e1s-szoftvercsomag \u2013 EHRM-systeem en PSA-dienstverlening",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/411251-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "VISTA college",
+        "value_eur": 3372268.0,
+        "end_date": "2025-03-20",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Europese aanbesteding volgens de openbare procedure voor het leveren, configureren, implementeren, onderhouden, het adviseren over en hosten van ",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/180259-2025",
+        "public_sector": true
+      }
+    ]
+  },
+  {
+    "id": "2e1b5193-4491-527e-b28b-71d85c2bb23c",
+    "slug": "brickyard",
+    "name": "Brickyard B.V.",
+    "public_awards": 6,
+    "buyers": [
+      "Gemeente Assen",
+      "Gemeente Goes",
+      "Gemeente Hengelo",
+      "Gemeente Maastricht",
+      "Gemeente Rijswijk",
+      "Gemeente Steenwijkerland"
+    ],
+    "largest_award_eur": 382460.0,
+    "cpv_divisions": [
+      "31",
+      "34",
+      "48",
+      "50",
+      "51",
+      "63",
+      "72",
+      "75"
+    ],
+    "references": [
+      {
+        "buyer": "Gemeente Maastricht",
+        "value_eur": 382460.0,
+        "end_date": "2024-08-06",
+        "cpv": "34926000",
+        "title": "Hollandia \u2013 Parkol\u00f3fel\u00fcgyeleti eszk\u00f6z\u00f6k \u2013 Scanoplossing parkeren gemeente Maastricht",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/472531-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Steenwijkerland",
+        "value_eur": 255000.0,
+        "end_date": "2024-11-13",
+        "cpv": "34923000",
+        "title": "Hollandia \u2013 K\u00f6z\u00fati forgalomir\u00e1ny\u00edt\u00e1si eszk\u00f6z\u00f6k \u2013 ANPR-camerasysteem Steenwijkerland",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/690850-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Hengelo",
+        "value_eur": 196922.0,
+        "end_date": "2024-12-06",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Camerahandhaving door kentekenregistratie gemeente Hengelo",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/745625-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Assen",
+        "value_eur": 349070.0,
+        "end_date": "2025-05-13",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Europees openbare aanbesteding ANPR-camerasysteem",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/305416-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Goes",
+        "value_eur": 250000.0,
+        "end_date": "2025-05-16",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Kentekencamerahandhaving Autoluwe Binnenstad",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/317011-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Rijswijk",
+        "value_eur": null,
+        "end_date": "2025-06-06",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Camerahandhavingsdienst voor de milieuzones gemeente Rijswijk",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/368472-2025",
+        "public_sector": true
+      }
+    ]
+  },
+  {
+    "id": "27b22066-6e96-519b-98c0-b4408185a365",
+    "slug": "zorgned automatisering",
+    "name": "ZorgNed Automatisering bv",
+    "public_awards": 6,
+    "buyers": [
+      "Gemeente Alkmaar",
+      "Gemeente Barneveld",
+      "Gemeente Delft (en de aan de gemeente Delft gelieerde ondernemingen)",
+      "Gemeente Helmond",
+      "Gemeente Utrecht"
+    ],
+    "largest_award_eur": 1620000.0,
+    "cpv_divisions": [
+      "48",
+      "72"
+    ],
+    "references": [
+      {
+        "buyer": "Gemeente Helmond",
+        "value_eur": 1620000.0,
+        "end_date": "2024-07-09",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Processysteem sociaal domein (CTM 320859)",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/408187-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Delft (en de aan de gemeente Delft gelieerde ondernemingen)",
+        "value_eur": 166100.0,
+        "end_date": "2024-07-23",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 ZorgNed WMO applicatie",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/441634-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Delft (en de aan de gemeente Delft gelieerde ondernemingen)",
+        "value_eur": 1000000.0,
+        "end_date": "2024-09-11",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Regiesysteem Sociaal Team Delft Support B.V.",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/545515-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Alkmaar",
+        "value_eur": null,
+        "end_date": "2024-11-22",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 C4920 Aanbesteding Informatiesysteem Sociaal Domein",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/715198-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Barneveld",
+        "value_eur": 381696.0,
+        "end_date": "2024-12-19",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Software oplossingen voor het sociaal domein",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/780580-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Utrecht",
+        "value_eur": null,
+        "end_date": "2024-12-30",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Leerlingenvervoer applicatie",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/798890-2024",
+        "public_sector": true
+      }
+    ]
+  },
+  {
+    "id": "36110103-4fb2-511b-9965-eeba2259b92c",
+    "slug": "gartner",
+    "name": "Gartner Nederland BV",
+    "public_awards": 5,
+    "buyers": [
+      "Gemeente Rotterdam",
+      "Gemeente Venlo",
+      "Ministerie van Financi\u00ebn",
+      "Provincie Zeeland",
+      "Stichting Waternet"
+    ],
+    "largest_award_eur": 75000000.0,
+    "cpv_divisions": [
+      "72"
+    ],
+    "references": [
+      {
+        "buyer": "Gemeente Rotterdam",
+        "value_eur": 3000000.0,
+        "end_date": "2024-02-07",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Europese aanbesteding strategische adviesdiensten",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/80615-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Provincie Zeeland",
+        "value_eur": 365000.0,
+        "end_date": "2024-04-02",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Research- en informatiedienst voor IT domein",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/193261-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Stichting Waternet",
+        "value_eur": 700000.0,
+        "end_date": "2024-09-11",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Kennisplatform en adviesdiensten IT en OT",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/546048-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Ministerie van Financi\u00ebn",
+        "value_eur": 75000000.0,
+        "end_date": "2025-03-04",
+        "cpv": "72222300",
+        "title": "Hollandia \u2013 Inform\u00e1ci\u00f3s technol\u00f3gi\u00e1val kapcsolatos szolg\u00e1ltat\u00e1sok \u2013 Publ. FIN-EA IT Researchdienstverlening IRD2024",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/140616-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Venlo",
+        "value_eur": 220000.0,
+        "end_date": "2025-07-10",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Vrijwillige transparantie inzake het contracteren van het technologisch kennis-, onderzoeks- en adviesbureau Gart",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/450816-2025",
+        "public_sector": true
+      }
+    ]
+  },
+  {
+    "id": "fd0f4db3-b60b-53c8-b0ae-ff0c1086fb3f",
+    "slug": "sltn it services",
+    "name": "SLTN IT Services B.V.",
+    "public_awards": 5,
+    "buyers": [
+      "Belastingdienst",
+      "Gemeente Berkelland",
+      "Gemeente Gorinchem",
+      "Gemeente Nieuwkoop",
+      "gemeente Doetinchem"
+    ],
+    "largest_award_eur": 45000000.0,
+    "cpv_divisions": [
+      "48",
+      "51",
+      "72"
+    ],
+    "references": [
+      {
+        "buyer": "Gemeente Berkelland",
+        "value_eur": 450000.0,
+        "end_date": "2024-01-10",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Implementatie, migratie en Oracle beheerdienstverlening",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/17119-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Gorinchem",
+        "value_eur": 600000.0,
+        "end_date": "2024-05-24",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Server- en storage infrastructuur",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/306857-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "gemeente Doetinchem",
+        "value_eur": 4235607.0,
+        "end_date": "2024-12-20",
+        "cpv": "72510000",
+        "title": "Hollandia \u2013 Sz\u00e1m\u00edt\u00f3g\u00e9pekkel kapcsolatos \u00fcgyint\u00e9z\u00e9si szolg\u00e1ltat\u00e1sok \u2013 Outsourcing IT-infrastructuur- en beheerdiensten",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/784770-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Nieuwkoop",
+        "value_eur": 3372500.0,
+        "end_date": "2025-01-06",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Aanbesteding ICT-beheerdiensten",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/4880-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Belastingdienst",
+        "value_eur": 45000000.0,
+        "end_date": "2025-06-25",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Data Storage Platform",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/410665-2025",
+        "public_sector": true
+      }
+    ]
+  },
+  {
+    "id": "699712ec-4f2f-5eef-98c2-1cd449a6993f",
+    "slug": "sogeti",
+    "name": "Sogeti Nederland B.V.",
+    "public_awards": 5,
+    "buyers": [
+      "Gemeente Groningen",
+      "Omgevingsdienst Haaglanden *",
+      "Provincie Noord-Brabant",
+      "Provincie Noord-Holland",
+      "Stichting Participatiefonds voor het Onderwijs"
+    ],
+    "largest_award_eur": 25000000.0,
+    "cpv_divisions": [
+      "48",
+      "71",
+      "72"
+    ],
+    "references": [
+      {
+        "buyer": "Omgevingsdienst Haaglanden *",
+        "value_eur": 6000000.0,
+        "end_date": "2024-04-26",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Server-, werkplek-, applicatie- en cloud beheer",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/250133-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Stichting Participatiefonds voor het Onderwijs",
+        "value_eur": 10000000.0,
+        "end_date": "2024-07-23",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Continuering van de datawarehousedienstverlening (DWH)",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/442442-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Provincie Noord-Brabant",
+        "value_eur": 24500000.0,
+        "end_date": "2024-08-05",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Dienstverlening m.b.t. business intelligence, analytics en beheer van het dataplatform",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/469965-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Provincie Noord-Holland",
+        "value_eur": 25000000.0,
+        "end_date": "2024-08-19",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Cloud- en Werkplekdiensten inclusief Service- en Integratieondersteuning",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/496549-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Groningen",
+        "value_eur": 2294250.0,
+        "end_date": "2024-12-10",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Identity and Access Management",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/752730-2024",
+        "public_sector": true
+      }
+    ]
+  },
+  {
+    "id": "a8229df2-22a4-5132-acbd-925b97a93414",
+    "slug": "avit",
+    "name": "AVIT Group B.V.",
+    "public_awards": 5,
+    "buyers": [
+      "Belastingdienst, IUC Belastingdienst",
+      "Gemeente Nijkerk",
+      "Gemeente S\u00fadwest-Frysl\u00e2n",
+      "Provincie Utrecht",
+      "Samenwerkingsorganisatie De Wolden Hoogeveen"
+    ],
+    "largest_award_eur": 14929664.0,
+    "cpv_divisions": [
+      "32",
+      "48",
+      "51",
+      "72"
+    ],
+    "references": [
+      {
+        "buyer": "Gemeente S\u00fadwest-Frysl\u00e2n",
+        "value_eur": 2500000.0,
+        "end_date": "2024-04-26",
+        "cpv": "32422000",
+        "title": "Hollandia \u2013 H\u00e1l\u00f3zati alkatr\u00e9szek \u2013 Onderhandelingsprocedure ZVA - Vervanging actieve netwerkcomponenten",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/250267-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Provincie Utrecht",
+        "value_eur": null,
+        "end_date": "2024-05-10",
+        "cpv": "72700000",
+        "title": "Hollandia \u2013 Sz\u00e1m\u00edt\u00f3g\u00e9pes h\u00e1l\u00f3zati szolg\u00e1ltat\u00e1sok \u2013 Network Infastructure as a Service (NIaaS)",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/277205-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Nijkerk",
+        "value_eur": 420273.0,
+        "end_date": "2024-05-17",
+        "cpv": "72700000",
+        "title": "Hollandia \u2013 Sz\u00e1m\u00edt\u00f3g\u00e9pes h\u00e1l\u00f3zati szolg\u00e1ltat\u00e1sok \u2013 ICT-netwerkinfrastructuur als een dienst (NaaS) Gemeente Nijkerk, 2023",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/293729-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Samenwerkingsorganisatie De Wolden Hoogeveen",
+        "value_eur": 1000000.0,
+        "end_date": "2024-09-10",
+        "cpv": "32400000",
+        "title": "Hollandia \u2013 H\u00e1l\u00f3zatok \u2013 Levering, migratie en beheer Netwerkcomponenten",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/543888-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Belastingdienst, IUC Belastingdienst",
+        "value_eur": 14929664.0,
+        "end_date": "2025-07-01",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Vervanging LAN omgeving",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/425445-2025",
+        "public_sector": true
+      }
+    ]
+  },
+  {
+    "id": "88a1a8af-7bd8-5f7d-a985-c215c09b0c95",
+    "slug": "axians communication solutions",
+    "name": "Axians Communication Solutions B.V.",
+    "public_awards": 5,
+    "buyers": [
+      "De Dienst voor het kadaster en de openbare registers (het Kadaster)",
+      "Gemeente Purmerend",
+      "Stichting Drenthe College Terra",
+      "Stichting Kennisnet",
+      "Stichting Regionaal Opleidingen Centrum Aventus"
+    ],
+    "largest_award_eur": 9295042.0,
+    "cpv_divisions": [
+      "30",
+      "32",
+      "48",
+      "72"
+    ],
+    "references": [
+      {
+        "buyer": "Stichting Regionaal Opleidingen Centrum Aventus",
+        "value_eur": null,
+        "end_date": "2024-01-10",
+        "cpv": "72315000",
+        "title": "Hollandia \u2013 Adath\u00e1l\u00f3zat-kezel\u00e9si \u00e9s -t\u00e1mogat\u00e1si szolg\u00e1ltat\u00e1sok \u2013 Netwerkdiensten",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/17336-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Purmerend",
+        "value_eur": null,
+        "end_date": "2024-04-11",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Firewall / netwerkproducten en diensten",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/214194-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Stichting Kennisnet",
+        "value_eur": 2100000.0,
+        "end_date": "2024-04-25",
+        "cpv": "72315000",
+        "title": "Hollandia \u2013 Adath\u00e1l\u00f3zat-kezel\u00e9si \u00e9s -t\u00e1mogat\u00e1si szolg\u00e1ltat\u00e1sok \u2013 Beheer en Hardware OCC tbv Kennisnet",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/246841-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Stichting Drenthe College Terra",
+        "value_eur": 1078663.19,
+        "end_date": "2024-05-14",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Netwerkcomponenten",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/282783-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "De Dienst voor het kadaster en de openbare registers (het Kadaster)",
+        "value_eur": 9295042.0,
+        "end_date": "2024-09-17",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Connectivity Services",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/557283-2024",
+        "public_sector": true
+      }
+    ]
+  },
+  {
+    "id": "8fc06862-3e62-58d9-a59e-4d49be0b8b4c",
+    "slug": "bsenf",
+    "name": "BS&F B.V.",
+    "public_awards": 5,
+    "buyers": [
+      "Gemeente Leiden",
+      "Gemeente Nieuwegein",
+      "Gemeente Woerden",
+      "Gemeente Zoetermeer",
+      "gemeente 's-Hertogenbosch"
+    ],
+    "largest_award_eur": 4831755.0,
+    "cpv_divisions": [
+      "48",
+      "72",
+      "79"
+    ],
+    "references": [
+      {
+        "buyer": "Gemeente Woerden",
+        "value_eur": 2397500.0,
+        "end_date": "2024-09-04",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Groene Hart Pas",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/529441-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Leiden",
+        "value_eur": 4831755.0,
+        "end_date": "2025-03-26",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 A03.73.2024 Sleutelpas (stadspas Leiden)",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/193035-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Nieuwegein",
+        "value_eur": 380000.0,
+        "end_date": "2025-04-18",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Stadspas dienstverlening Nieuwegein",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/257819-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Zoetermeer",
+        "value_eur": null,
+        "end_date": "2025-05-23",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Zoetermeerpas",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/333311-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "gemeente 's-Hertogenbosch",
+        "value_eur": 1450000.0,
+        "end_date": "2025-07-11",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Ea Stadspas De Bossche Pas",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/452432-2025",
+        "public_sector": true
+      }
+    ]
+  },
+  {
+    "id": "7246721f-3af2-553d-af96-febf13117250",
+    "slug": "enable u",
+    "name": "EnablE-U B.V.",
+    "public_awards": 5,
+    "buyers": [
+      "Gemeente Deurne",
+      "Gemeente Krimpenerwaard",
+      "Gemeente Nieuwegein",
+      "Gemeente Noordoostpolder",
+      "Gemeente Overbetuwe"
+    ],
+    "largest_award_eur": 1115000.0,
+    "cpv_divisions": [
+      "48",
+      "72"
+    ],
+    "references": [
+      {
+        "buyer": "Gemeente Overbetuwe",
+        "value_eur": 660000.0,
+        "end_date": "2024-05-10",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Enterprise Service Bus & API-gateway",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/277366-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Nieuwegein",
+        "value_eur": 1115000.0,
+        "end_date": "2024-07-26",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Integratiedomein",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/450368-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Deurne",
+        "value_eur": null,
+        "end_date": "2024-08-07",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Integratielaag en Gegevensmagazijn",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/474113-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Noordoostpolder",
+        "value_eur": 660000.0,
+        "end_date": "2024-10-02",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Aankondiging van vrijwillige transparantie vooraf: Datadistributiesysteem",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/592918-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Krimpenerwaard",
+        "value_eur": 23125.0,
+        "end_date": "2025-02-20",
+        "cpv": "72268000",
+        "title": "Hollandia \u2013 Szoftverell\u00e1t\u00e1si szolg\u00e1ltat\u00e1sok \u2013 Bouwteam ICT Integratie-software",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/114410-2025",
+        "public_sector": true
+      }
+    ]
+  },
+  {
+    "id": "7303fdf8-2ffb-562c-876d-9ea4f637f5b4",
+    "slug": "magenta multimedia tools",
+    "name": "Magenta Multimedia Tools B.V.",
+    "public_awards": 5,
+    "buyers": [
+      "Veiligheids- en Gezondheidsregio Gelderland-Midden",
+      "Veiligheidsregio Flevoland",
+      "Veiligheidsregio IJsselland",
+      "Veiligheidsregio Noord- en Oost- Gelderland",
+      "Veiligheidsregio Twente"
+    ],
+    "largest_award_eur": 960000.0,
+    "cpv_divisions": [
+      "48"
+    ],
+    "references": [
+      {
+        "buyer": "Veiligheidsregio Twente",
+        "value_eur": 661000.0,
+        "end_date": "2024-12-03",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Ex ante publicatie voornemen tot gunning zonder voorafgaande bekendmaking Vakbekwaamheid Management Systeem (VMS) - Veiligheidspaspoort Magenta M",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/736088-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Veiligheids- en Gezondheidsregio Gelderland-Midden",
+        "value_eur": 215000.0,
+        "end_date": "2024-12-04",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Vrijwillige transparantie Vakbekwaamheid Management Systeem",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/739802-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Veiligheidsregio Noord- en Oost- Gelderland",
+        "value_eur": 960000.0,
+        "end_date": "2025-01-30",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Vakbekwaamheidsmanagementsysteem",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/65255-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Veiligheidsregio Flevoland",
+        "value_eur": 550000.0,
+        "end_date": "2025-03-31",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Vakbekwaamheid Management Systeem (VMS)",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/205332-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Veiligheidsregio IJsselland",
+        "value_eur": 960000.0,
+        "end_date": "2025-06-30",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Vakbekwaamheidsmanagementsysteem",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/421599-2025",
+        "public_sector": true
+      }
+    ]
+  },
+  {
+    "id": "9b2caf75-2a3d-5285-a58a-65463688d936",
+    "slug": "esri",
+    "name": "Esri Nederland B.V.",
+    "public_awards": 5,
+    "buyers": [
+      "Gemeente Heemstede",
+      "Gemeente Hollands Kroon",
+      "Gemeente Zwolle",
+      "Waterschap Rijn en IJssel"
+    ],
+    "largest_award_eur": 1050000.0,
+    "cpv_divisions": [
+      "38",
+      "72"
+    ],
+    "references": [
+      {
+        "buyer": "Gemeente Heemstede",
+        "value_eur": null,
+        "end_date": "2024-01-30",
+        "cpv": "72200000",
+        "title": "Hollandia \u2013 Szoftverprogramoz\u00e1si \u00e9s tan\u00e1csad\u00e1si szolg\u00e1ltat\u00e1sok \u2013 GIS-software, GeoViewer en (Open) Data Portaal",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/61178-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Waterschap Rijn en IJssel",
+        "value_eur": 1050000.0,
+        "end_date": "2024-02-02",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Overeenkomst ArcGIS software met ESRI Nederland B.V.",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/70289-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Heemstede",
+        "value_eur": null,
+        "end_date": "2024-09-13",
+        "cpv": "72200000",
+        "title": "Hollandia \u2013 Szoftverprogramoz\u00e1si \u00e9s tan\u00e1csad\u00e1si szolg\u00e1ltat\u00e1sok \u2013 Aanbesteding TotaalSuite Heemstede",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/550215-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Zwolle",
+        "value_eur": null,
+        "end_date": "2025-05-27",
+        "cpv": "72600000",
+        "title": "Hollandia \u2013 Sz\u00e1m\u00edt\u00f3g\u00e9pes t\u00e1mogat\u00e1si \u00e9s tan\u00e1csad\u00f3i szolg\u00e1ltat\u00e1sok \u2013 Onderhoud- en licentieovereenkomst t.b.v ArcGIS-platform",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/339536-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Hollands Kroon",
+        "value_eur": null,
+        "end_date": "2025-06-24",
+        "cpv": "72200000",
+        "title": "Hollandia \u2013 Szoftverprogramoz\u00e1si \u00e9s tan\u00e1csad\u00e1si szolg\u00e1ltat\u00e1sok \u2013 Publicatie vrijwillige transparantie GIS software, geoviewer en (open) dataportaal",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/402179-2025",
+        "public_sector": true
+      }
+    ]
+  },
+  {
+    "id": "27592eb4-2e9c-538e-81ab-8c574df09d2a",
+    "slug": "xxllnc zaakgericht",
+    "name": "xxllnc Zaakgericht B.V.",
+    "public_awards": 4,
+    "buyers": [
+      "Gemeente Amersfoort",
+      "Gemeente Epe",
+      "Gemeente Meppel",
+      "Gemeente Overbetuwe"
+    ],
+    "largest_award_eur": 11989256.0,
+    "cpv_divisions": [
+      "48",
+      "72"
+    ],
+    "references": [
+      {
+        "buyer": "Gemeente Epe",
+        "value_eur": 325000.0,
+        "end_date": "2024-01-17",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Hosting, beheer, koppelingen , elearning en ontwikkeling van Zaaksysteem.nl",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/32310-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Meppel",
+        "value_eur": null,
+        "end_date": "2024-03-28",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Zaaksysteem",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/186441-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Overbetuwe",
+        "value_eur": 386500.0,
+        "end_date": "2024-04-03",
+        "cpv": "48000000",
+        "title": "Hollandia \u2013 Szoftvercsomag \u00e9s inform\u00e1ci\u00f3s rendszerek \u2013 Zaaksysteem",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/194391-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Amersfoort",
+        "value_eur": 11989256.0,
+        "end_date": "2024-05-29",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 Zaaksysteem",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/316228-2024",
+        "public_sector": true
+      }
+    ]
+  },
+  {
+    "id": "cbcf5668-0c35-5bc2-8b3c-ddc78a2a12b4",
+    "slug": "sweco",
+    "name": "Sweco Nederland B.V.",
+    "public_awards": 4,
+    "buyers": [
+      "Gemeente Eindhoven",
+      "Gemeente Ommen",
+      "Gemeente Opmeer",
+      "Provincie Utrecht"
+    ],
+    "largest_award_eur": 8259000.0,
+    "cpv_divisions": [
+      "38",
+      "48",
+      "71",
+      "72"
+    ],
+    "references": [
+      {
+        "buyer": "Provincie Utrecht",
+        "value_eur": 266000.0,
+        "end_date": "2024-07-05",
+        "cpv": "72000000",
+        "title": "Hollandia \u2013 IT-szolg\u00e1ltat\u00e1sok: tan\u00e1csad\u00e1s, szoftverfejleszt\u00e9s, internet \u00e9s t\u00e1mogat\u00e1s \u2013 BGT beheersoftware",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/402757-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Ommen",
+        "value_eur": 8259000.0,
+        "end_date": "2024-12-19",
+        "cpv": "71300000",
+        "title": "Hollandia \u2013 M\u00e9rn\u00f6ki szolg\u00e1ltat\u00e1sok \u2013 Gemeente Ommen - Assetmanagementorganisatie openbare ruimte",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/781889-2024",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Opmeer",
+        "value_eur": 414000.0,
+        "end_date": "2025-05-02",
+        "cpv": "72268000",
+        "title": "Hollandia \u2013 Szoftverell\u00e1t\u00e1si szolg\u00e1ltat\u00e1sok \u2013 Geo-applicaties Opmeer",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/282224-2025",
+        "public_sector": true
+      },
+      {
+        "buyer": "Gemeente Eindhoven",
+        "value_eur": 400000.0,
+        "end_date": "2025-07-17",
+        "cpv": "71300000",
+        "title": "Hollandia \u2013 M\u00e9rn\u00f6ki szolg\u00e1ltat\u00e1sok \u2013 BGT-BEHEERAPPLICATIE MET GE\u00cfNTEGREERDE VEREFFENINGSSOFTWARE",
+        "source_url": "https://ted.europa.eu/en/notice/-/detail/466134-2025",
+        "public_sector": true
+      }
+    ]
+  }
+]

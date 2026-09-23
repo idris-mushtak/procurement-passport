@@ -1,0 +1,62 @@
+{
+  "613909-2026": {
+    "label": "future",
+    "met": 2,
+    "total": 4
+  },
+  "617228-2026": {
+    "label": "reachable_partner",
+    "met": 2,
+    "total": 3
+  },
+  "620296-2026": {
+    "label": "reachable_partner",
+    "met": 3,
+    "total": 7
+  },
+  "638336-2026": {
+    "label": "future",
+    "met": 0,
+    "total": 3
+  },
+  "641736-2026": {
+    "label": "future",
+    "met": 1,
+    "total": 2
+  },
+  "643806-2026": {
+    "label": "reachable_fix",
+    "met": 1,
+    "total": 2
+  },
+  "647200-2026": {
+    "label": "reachable_partner",
+    "met": 3,
+    "total": 6
+  },
+  "648029-2026": {
+    "label": "reachable_fix",
+    "met": 2,
+    "total": 5
+  },
+  "648539-2026": {
+    "label": "reachable_partner",
+    "met": 3,
+    "total": 4
+  },
+  "648631-2026": {
+    "label": "reachable_partner",
+    "met": 0,
+    "total": 3
+  },
+  "650682-2026": {
+    "label": "reachable_partner",
+    "met": 1,
+    "total": 3
+  },
+  "654951-2026": {
+    "label": "reachable_partner",
+    "met": 2,
+    "total": 3
+  }
+}
