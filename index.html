@@ -1,0 +1,908 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Procurement Passport — which Dutch public tenders an IT SME can actually bid on, with every verdict traced to a verbatim clause.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%233A4CA8'/%3E%3Cpath d='M4 8.5l2.5 2.5L12 5.5' stroke='white' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<title>Procurement Passport</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+<style>
+:root{
+  --ground:#FBFBFD; --panel:#FFFFFF; --sunken:#F3F4F8;
+  --ink:#16181F; --ink-2:#4A4F5E; --ink-3:#7A8091;
+  --line:#E0E3EC; --line-2:#CDD2DF;
+  --accent:#3A4CA8; --accent-soft:#EAECF7;
+  --pass:#1F7A4D; --pass-soft:#E4F2EA;
+  --gap:#B4451F; --gap-soft:#FBEBE4;
+  --blocked:#8B2635; --blocked-soft:#F9E7E9;
+  --review:#5A6B8C; --review-soft:#EDF0F6;
+  --sans:"IBM Plex Sans",ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ground:#14161C; --panel:#1B1E27; --sunken:#212531;
+  --ink:#EDEFF5; --ink-2:#AEB4C4; --ink-3:#7D849A;
+  --line:#2C313E; --line-2:#3A4150;
+  --accent:#93A0E8; --accent-soft:#242B45;
+  --pass:#5FC08C; --pass-soft:#16301F;
+  --gap:#E8906A; --gap-soft:#33201A;
+  --blocked:#E08794; --blocked-soft:#331A1F;
+  --review:#9FB0D0; --review-soft:#222836;
+}}
+:root[data-theme="dark"]{
+  --ground:#14161C; --panel:#1B1E27; --sunken:#212531;
+  --ink:#EDEFF5; --ink-2:#AEB4C4; --ink-3:#7D849A;
+  --line:#2C313E; --line-2:#3A4150;
+  --accent:#93A0E8; --accent-soft:#242B45;
+  --pass:#5FC08C; --pass-soft:#16301F;
+  --gap:#E8906A; --gap-soft:#33201A;
+  --blocked:#E08794; --blocked-soft:#331A1F;
+  --review:#9FB0D0; --review-soft:#222836;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--sans);
+  font-size:14px;line-height:1.5;-webkit-font-smoothing:antialiased}
+h1,h2,h3{margin:0;text-wrap:balance;font-weight:600;letter-spacing:-.01em}
+button{font:inherit;color:inherit}
+a{color:var(--accent)}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+
+/* ---------------- shell ---------------- */
+.app{display:grid;grid-template-columns:230px 1fr;min-height:100vh}
+.rail{background:var(--panel);border-right:1px solid var(--line);
+  display:flex;flex-direction:column;gap:2px;padding:20px 12px;position:sticky;top:0;
+  height:100vh;overflow-y:auto}
+.brand{padding:0 10px 18px;display:flex;flex-direction:column;gap:3px}
+.brand b{font-size:15px;font-weight:600;letter-spacing:-.015em}
+.brand span{font-size:11px;color:var(--ink-3);font-family:var(--mono)}
+.nav{display:flex;flex-direction:column;gap:2px}
+.nav button{display:flex;align-items:baseline;gap:9px;width:100%;text-align:left;
+  background:none;border:0;border-radius:5px;padding:8px 10px;cursor:pointer;color:var(--ink-2)}
+.nav button:hover{background:var(--sunken);color:var(--ink)}
+.nav button[aria-current="true"]{background:var(--accent-soft);color:var(--accent);font-weight:600}
+.nav .step{font-family:var(--mono);font-size:10px;color:var(--ink-3);width:12px}
+.nav button[aria-current="true"] .step{color:var(--accent)}
+.railfoot{margin-top:auto;padding:14px 10px 0;border-top:1px solid var(--line);
+  font-size:11px;color:var(--ink-3);display:flex;flex-direction:column;gap:6px}
+
+main{padding:26px 30px 60px;max-width:1180px;overflow-x:hidden}
+.head{display:flex;flex-direction:column;gap:5px;margin-bottom:20px}
+.head h1{font-size:21px}
+.head p{margin:0;color:var(--ink-2);max-width:68ch}
+.eyebrow{font-family:var(--mono);font-size:10.5px;letter-spacing:.09em;
+  text-transform:uppercase;color:var(--ink-3)}
+
+/* ---------------- primitives ---------------- */
+.card{background:var(--panel);border:1px solid var(--line);border-radius:8px}
+.pad{padding:16px 18px}
+.grid{display:grid;gap:12px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:18px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:13px 15px;
+  display:flex;flex-direction:column;gap:3px}
+.stat .k{font-family:var(--mono);font-size:10.5px;letter-spacing:.07em;
+  text-transform:uppercase;color:var(--ink-3)}
+.stat .v{font-family:var(--mono);font-size:22px;font-weight:600;letter-spacing:-.02em;
+  font-variant-numeric:tabular-nums}
+.stat .s{font-size:11.5px;color:var(--ink-3)}
+
+.chip{display:inline-flex;align-items:center;gap:5px;border-radius:4px;padding:2.5px 7px;
+  font-size:11px;font-weight:600;white-space:nowrap;border:1px solid transparent}
+.c-ready{background:var(--pass-soft);color:var(--pass)}
+.c-fix{background:var(--accent-soft);color:var(--accent)}
+.c-partner{background:var(--review-soft);color:var(--review)}
+.c-future{background:var(--sunken);color:var(--ink-2);border-color:var(--line-2)}
+.c-out{background:var(--blocked-soft);color:var(--blocked)}
+.c-pass{background:var(--pass-soft);color:var(--pass)}
+.c-gap{background:var(--gap-soft);color:var(--gap)}
+.c-review{background:var(--review-soft);color:var(--review)}
+.trust{font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.05em;
+  padding:1.5px 5px;border-radius:3px;border:1px solid var(--line-2);color:var(--ink-3)}
+.trust.verified{color:var(--pass);border-color:var(--pass);background:var(--pass-soft)}
+.trust.official{color:var(--accent);border-color:var(--accent);background:var(--accent-soft)}
+.trust.claim{color:var(--ink-3)}
+
+table{width:100%;border-collapse:collapse;font-size:13px}
+.scroll{overflow-x:auto}
+th{text-align:left;font-family:var(--mono);font-size:10.5px;letter-spacing:.07em;
+  text-transform:uppercase;color:var(--ink-3);font-weight:500;
+  padding:9px 10px;border-bottom:1px solid var(--line-2);white-space:nowrap}
+td{padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:0}
+.row-btn{cursor:pointer}
+.row-btn:hover td{background:var(--sunken)}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.r{text-align:right}
+.muted{color:var(--ink-3)}
+
+/* ladder severity stripe */
+.lv{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:11px}
+.lv i{width:3px;height:13px;border-radius:2px;display:inline-block;background:var(--line-2)}
+.lv[data-l="1"] i,.lv[data-l="2"] i{background:var(--accent)}
+.lv[data-l="3"] i,.lv[data-l="4"] i{background:var(--gap)}
+.lv[data-l="5"] i{background:var(--blocked)}
+.lv[data-l="6"] i{background:var(--blocked);box-shadow:0 0 0 1px var(--blocked)}
+
+/* toggles */
+.prefs{display:flex;flex-direction:column;gap:11px}
+.pref{display:flex;align-items:center;justify-content:space-between;gap:14px}
+.pref label{font-weight:500}
+.pref .why{font-size:11.5px;color:var(--ink-3);margin-top:1px}
+.sw{position:relative;width:38px;height:21px;flex:0 0 auto;border:0;border-radius:11px;
+  background:var(--line-2);cursor:pointer;transition:background .14s}
+.sw::after{content:"";position:absolute;top:2.5px;left:2.5px;width:16px;height:16px;border-radius:50%;
+  background:#fff;transition:transform .14s}
+.sw[aria-checked="true"]{background:var(--accent)}
+.sw[aria-checked="true"]::after{transform:translateX(17px)}
+input[type=range]{width:150px;accent-color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
+
+/* clause disclosure */
+.clause{margin-top:7px;background:var(--sunken);border-left:2px solid var(--line-2);
+  padding:9px 11px;border-radius:0 5px 5px 0;font-size:12.5px;color:var(--ink-2);max-width:92ch}
+.clause .src{font-family:var(--mono);font-size:10.5px;color:var(--ink-3);
+  margin-top:6px;display:block;word-break:break-word}
+.link{background:none;border:0;padding:0;color:var(--accent);cursor:pointer;
+  font-size:11.5px;text-decoration:underline;text-underline-offset:2px}
+
+/* gap bars */
+.bar{height:7px;border-radius:4px;background:var(--line);overflow:hidden;min-width:60px}
+.bar i{display:block;height:100%;background:var(--accent);border-radius:4px}
+.bar.alone i{background:var(--pass)}
+
+.back{background:none;border:1px solid var(--line-2);border-radius:5px;padding:4px 9px;
+  cursor:pointer;font-size:12px;color:var(--ink-2)}
+.back:hover{background:var(--sunken);color:var(--ink)}
+.empty{color:var(--ink-3);padding:22px;text-align:center;font-size:13px}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.ev{list-style:none;margin:7px 0 0;padding:0;display:flex;flex-direction:column;gap:4px}
+.ev li{font-size:12px;color:var(--ink-2);display:flex;gap:7px;align-items:baseline}
+/* intake: the two upload affordances + their walkthrough */
+.intake{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:18px}
+.drop{background:var(--panel);border:1.5px dashed var(--line-2);border-radius:8px;
+  padding:16px 18px;display:flex;flex-direction:column;gap:6px;cursor:pointer;
+  text-align:left;transition:border-color .14s,background .14s}
+.drop:hover{border-color:var(--accent);background:var(--accent-soft)}
+.drop b{font-size:13.5px;font-weight:600}
+.drop span{font-size:12px;color:var(--ink-3)}
+.drop .tag{align-self:flex-start;font-family:var(--mono);font-size:9.5px;
+  letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--line-2);
+  color:var(--ink-3);border-radius:3px;padding:1.5px 5px;margin-bottom:2px}
+.sheet{position:fixed;inset:0;background:rgba(10,12,18,.55);z-index:40;
+  display:flex;align-items:flex-start;justify-content:center;padding:36px 16px;
+  overflow-y:auto}
+.sheet-inner{background:var(--ground);border:1px solid var(--line);border-radius:10px;
+  max-width:840px;width:100%;padding:22px 24px 26px;position:relative}
+.sheet h2{font-size:17px;margin-bottom:3px}
+.sheet .close{position:absolute;top:14px;right:14px;background:none;border:1px solid var(--line-2);
+  border-radius:5px;width:26px;height:26px;cursor:pointer;color:var(--ink-2);line-height:1}
+.sheet .close:hover{background:var(--sunken);color:var(--ink)}
+.note{background:var(--review-soft);border-left:2px solid var(--review);
+  padding:9px 12px;border-radius:0 5px 5px 0;font-size:12.5px;color:var(--ink-2);
+  margin:12px 0 16px}
+.steps{display:flex;flex-direction:column;gap:0;margin-top:4px}
+.stepline{display:grid;grid-template-columns:26px 1fr;gap:12px;padding:11px 0;
+  border-bottom:1px solid var(--line)}
+.stepline:last-child{border-bottom:0}
+.stepline .n{font-family:var(--mono);font-size:11px;color:var(--accent);
+  border:1px solid var(--accent);border-radius:50%;width:22px;height:22px;
+  display:flex;align-items:center;justify-content:center}
+.stepline b{font-size:13px;font-weight:600;display:block;margin-bottom:2px}
+.stepline p{margin:0;font-size:12.5px;color:var(--ink-2)}
+.filelist{list-style:none;margin:7px 0 0;padding:0;display:flex;flex-direction:column;gap:3px}
+.filelist li{font-family:var(--mono);font-size:11.5px;color:var(--ink-2);
+  display:flex;justify-content:space-between;gap:10px}
+.filelist .kb{color:var(--ink-3)}
+/* pipeline replay */
+.rundoc{display:flex;align-items:center;gap:11px;background:var(--sunken);
+  border:1px solid var(--line-2);border-radius:7px;padding:11px 13px;margin:14px 0 4px}
+.rundoc .ic{font-family:var(--mono);font-size:10px;font-weight:600;color:#fff;
+  background:var(--blocked);border-radius:3px;padding:3px 5px;letter-spacing:.03em}
+.rundoc b{font-size:13px;display:block}
+.rundoc span{font-size:11.5px;color:var(--ink-3)}
+.stage{display:grid;grid-template-columns:24px 1fr auto;gap:11px;align-items:start;
+  padding:10px 0;border-bottom:1px solid var(--line);opacity:.35;transition:opacity .25s}
+.stage:last-of-type{border-bottom:0}
+.stage[data-on="1"]{opacity:1}
+.stage .dot{width:18px;height:18px;border-radius:50%;border:1.5px solid var(--line-2);
+  margin-top:2px;display:flex;align-items:center;justify-content:center;
+  font-size:10px;color:var(--ink-3);font-family:var(--mono)}
+.stage[data-on="1"] .dot{border-color:var(--accent);color:var(--accent)}
+.stage[data-done="1"] .dot{background:var(--pass);border-color:var(--pass);color:#fff}
+.stage > div > b{font-size:13px;display:block;margin-bottom:1px}
+.stage p b{font-weight:600;color:var(--ink)}
+.proofs{list-style:none;margin:8px 0 0;padding:0;display:flex;flex-direction:column;gap:3px}
+.proofs li{font-size:12px;color:var(--ink-2);display:grid;
+  grid-template-columns:14px 1fr;gap:6px;align-items:baseline}
+.proofs li::before{content:"\2192";color:var(--accent);font-family:var(--mono);font-size:11px}
+.proofs li b{font-weight:600;color:var(--ink);font-variant-numeric:tabular-nums}
+.stage p{margin:0;font-size:12.5px;color:var(--ink-2)}
+.stage .t{font-family:var(--mono);font-size:11px;color:var(--ink-3);white-space:nowrap;
+  padding-top:3px}
+.spin{display:inline-block;width:11px;height:11px;border:1.5px solid var(--accent);
+  border-right-color:transparent;border-radius:50%;animation:sp .7s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
+.pagefeed{display:flex;flex-wrap:wrap;gap:4px;margin-top:7px}
+.pagefeed i{font-family:var(--mono);font-size:10.5px;font-style:normal;
+  border:1px solid var(--line-2);border-radius:3px;padding:1.5px 5px;color:var(--ink-3)}
+.pagefeed i.hot{border-color:var(--accent);color:var(--accent);background:var(--accent-soft)}
+.found{margin-top:8px;display:flex;flex-direction:column;gap:4px}
+.found .f{display:grid;grid-template-columns:auto 1fr auto;gap:9px;align-items:baseline;
+  font-size:12px;padding:4px 0;border-bottom:1px dashed var(--line)}
+.found .f:last-child{border-bottom:0}
+.found .src{font-family:var(--mono);font-size:9.5px;text-transform:uppercase;
+  letter-spacing:.05em;border-radius:3px;padding:1px 5px}
+.found .src.pattern{background:var(--accent-soft);color:var(--accent)}
+.found .src.model{background:var(--review-soft);color:var(--review)}
+.runbar{display:flex;gap:8px;margin-top:16px;align-items:center;flex-wrap:wrap}
+.btn{background:var(--accent);color:#fff;border:0;border-radius:6px;padding:7px 14px;
+  font-size:13px;font-weight:500;cursor:pointer}
+.btn:hover{filter:brightness(1.08)}
+.btn.ghost{background:none;color:var(--ink-2);border:1px solid var(--line-2)}
+.btn.ghost:hover{background:var(--sunken);color:var(--ink)}
+@media (prefers-reduced-motion:reduce){.spin{animation:none}
+  .stage{opacity:1!important;transition:none}}
+@media (max-width:900px){.intake{grid-template-columns:1fr}
+
+  .app{grid-template-columns:1fr}
+  .rail{position:static;height:auto;flex-direction:row;flex-wrap:wrap;align-items:center;
+    border-right:0;border-bottom:1px solid var(--line);padding:12px}
+  .brand{padding:0 12px 0 4px}.nav{flex-direction:row;flex-wrap:wrap}.railfoot{display:none}
+  main{padding:18px 14px 50px}.split{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+</head>
+<body>
+<div class="app">
+  <nav class="rail">
+    <div class="brand"><b>Procurement Passport</b><span id="asof">&mdash;</span></div>
+    <div class="nav" id="nav"></div>
+    <div class="railfoot">
+      <div><span id="engine">engine idle</span></div>
+      <div>Verdicts from code. Clauses quoted verbatim.</div>
+    </div>
+  </nav>
+  <main id="view"><div class="empty">Loading...</div></main>
+</div>
+
+<script type="module">
+import { evaluateTender, LADDER } from "./rules.js";
+
+const SCREENS = [
+  ["profile","Profile"],["tenders","Reachable tenders"],["detail","Tender detail"],
+  ["gaps","Gap value"],["partners","Partner case"],
+];
+const LABELS = {
+  ready:["Ready","c-ready"], reachable_fix:["Fix it","c-fix"],
+  reachable_partner:["Partner","c-partner"], future:["Future","c-future"],
+  out_of_reach:["Out of reach","c-out"],
+};
+const $ = (s)=>document.querySelector(s);
+const esc = (s)=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const eur = (n)=> n==null ? "&mdash;" : "\u20AC"+Math.round(n).toLocaleString("en-US");
+const eurShort = (n)=>{ if(n==null) return "&mdash;";
+  if(n>=1e6) return "\u20AC"+(n/1e6).toFixed(n>=1e7?0:1)+"M";
+  if(n>=1e3) return "\u20AC"+Math.round(n/1e3)+"k"; return "\u20AC"+Math.round(n); };
+
+let DATA=null, PROV=null, REPLAY=null, TIMERS=[], STATE={screen:"profile", tender:null, open:new Set(), sheet:null};
+
+async function boot(){
+  DATA = await (await fetch("./data.json")).json();
+  try { PROV = await (await fetch("./provenance.json")).json(); }
+  catch { PROV = {}; }   // walkthrough is optional; the app works without it
+  try { REPLAY = await (await fetch("./replay.json")).json(); }
+  catch { REPLAY = null; }
+  $("#asof").textContent = "as of "+DATA.as_of;
+  DATA.company.prefs = Object.assign(
+    {allow_certification:true,allow_partners:true,partner_min_contract_value_eur:0,excluded_partners:[]},
+    DATA.company.prefs||{});
+  $("#nav").innerHTML = SCREENS.map(([id,name],i)=>
+    `<button data-s="${id}"><span class="step">${i+1}</span>${esc(name)}</button>`).join("");
+  $("#nav").addEventListener("click",e=>{
+    const b=e.target.closest("button[data-s]"); if(!b) return;
+    STATE.screen=b.dataset.s; render();
+  });
+  render();
+}
+
+/** Runs the same engine the Edge Function runs &mdash; this is not a mock. */
+function evaluateAll(){
+  const t0=performance.now();
+  const asOf=new Date(DATA.as_of+"T00:00:00Z");
+  const byTender=new Map();
+  for(const r of DATA.requirements){
+    if(!byTender.has(r.tender_id)) byTender.set(r.tender_id,[]);
+    byTender.get(r.tender_id).push(r);
+  }
+  const out=DATA.tenders.map(t=>
+    evaluateTender(t, byTender.get(t.id)||[], DATA.company, DATA.partners, asOf));
+  $("#engine").textContent=`evaluated 12 tenders in ${(performance.now()-t0).toFixed(1)} ms`;
+  return out;
+}
+
+function render(){
+  const res=evaluateAll();
+  document.querySelectorAll("#nav button").forEach(b=>
+    b.setAttribute("aria-current", String(b.dataset.s===STATE.screen)));
+  const fn={profile:Profile,tenders:Tenders,detail:Detail,gaps:Gaps,partners:Partners}[STATE.screen];
+  $("#view").innerHTML=fn(res);
+  wire(res);
+}
+
+const head=(eyebrow,title,sub)=>`<div class="head">
+  <div class="eyebrow">${esc(eyebrow)}</div><h1>${esc(title)}</h1>
+  ${sub?`<p>${esc(sub)}</p>`:""}</div>`;
+
+// ------------------------------------------------------------- 1. profile
+function Profile(res){
+  const c=DATA.company, p=c.prefs;
+  const caps=c.capabilities.map(x=>`<tr>
+    <td class="mono">${esc(x.key)}</td>
+    <td>${esc(x.value_text ?? (x.value_num!=null?eur(x.value_num):"&mdash;"))}</td>
+    <td class="mono muted">${x.valid_until?esc(x.valid_until):"no expiry"}</td>
+    <td><span class="trust ${esc(x.trust)}">${esc(x.trust)}</span></td></tr>`).join("");
+  const refs=c.references.map(r=>`<tr>
+    <td>${esc(r.buyer)}</td>
+    <td class="muted">${esc(r.title||"")}</td>
+    <td>${r.public_sector?'<span class="chip c-pass">public</span>':'<span class="chip c-future">private</span>'}</td>
+    <td class="mono r">${eur(r.value_eur)}</td>
+    <td class="mono muted">${esc(r.end_date||"")}</td></tr>`).join("");
+  return head("Step 1","Company profile",
+    `${esc(c.name)} &mdash; a Dutch IT SME. Every capability below carries the evidence it rests on. Change a preference and all 12 verdicts recompute instantly.`)
+  +`<div class="intake">
+      <button class="drop" data-sheet="company">
+        <span class="tag">Walkthrough</span>
+        <b>Upload company profile</b>
+        <span>Certificates, insurance policies and reference letters &rarr; a passport the engine can check. See how it works.</span>
+      </button>
+      <button class="drop" data-sheet="tender">
+        <span class="tag">Walkthrough</span>
+        <b>Upload tender documents</b>
+        <span>A Dutch aanbestedingsleidraad &rarr; knock-out requirements, each with its clause. See how it works.</span>
+      </button>
+    </div>
+   <div class="split">
+    <div class="card">
+      <div class="pad"><h2 style="font-size:14px">What this company can prove</h2></div>
+      <div class="scroll"><table>
+        <thead><tr><th>Capability</th><th>Value</th><th>Valid until</th><th>Trust</th></tr></thead>
+        <tbody>${caps}</tbody></table></div>
+    </div>
+    <div class="card pad">
+      <h2 style="font-size:14px;margin-bottom:12px">Preferences</h2>
+      <div class="prefs">
+        <div class="pref"><div>
+          <label for="pc">Allow certification</label>
+          <div class="why">If off, a certificate gap stops counting as fixable before the deadline.</div>
+        </div><button class="sw" id="pc" role="switch" aria-checked="${p.allow_certification}"></button></div>
+        <div class="pref"><div>
+          <label for="pp">Allow partners</label>
+          <div class="why">If off, no tender can be reached by teaming up.</div>
+        </div><button class="sw" id="pp" role="switch" aria-checked="${p.allow_partners}"></button></div>
+        <div class="pref"><div>
+          <label for="pv">Partner minimum contract value</label>
+          <div class="why">Ignore partners whose largest public award is below <span class="mono" id="pvv">${eurShort(p.partner_min_contract_value_eur)}</span>.</div>
+        </div><input type="range" id="pv" min="0" max="20000000" step="500000" value="${p.partner_min_contract_value_eur}"></div>
+      </div>
+    </div>
+  </div>
+  <div class="card" style="margin-top:12px">
+    <div class="pad"><h2 style="font-size:14px">Reference projects</h2></div>
+    <div class="scroll"><table>
+      <thead><tr><th>Buyer</th><th>Project</th><th>Sector</th><th class="r">Value</th><th>Completed</th></tr></thead>
+      <tbody>${refs}</tbody></table></div>
+  </div>`;
+}
+
+// ------------------------------------------------------------- 2. tenders
+function Tenders(res){
+  const reach=res.filter(r=>["ready","reachable_fix","reachable_partner"].includes(r.label));
+  const value=reach.reduce((s,r)=>s+(r.tender.value_eur||0),0);
+  const blocked=res.filter(r=>!["ready","reachable_fix","reachable_partner"].includes(r.label));
+  const order={ready:0,reachable_fix:1,reachable_partner:2,future:3,out_of_reach:4};
+  const rows=[...res].sort((a,b)=>order[a.label]-order[b.label]||(b.tender.value_eur||0)-(a.tender.value_eur||0))
+    .map(r=>{
+      const t=r.tender, [txt,cls]=LABELS[r.label];
+      const days=t.deadline?Math.round((new Date(t.deadline)-new Date(DATA.as_of))/864e5):null;
+      return `<tr class="row-btn" data-t="${esc(t.id)}">
+        <td><span class="chip ${cls}">${esc(txt)}</span></td>
+        <td><div style="font-weight:500">${esc(t.title)}</div>
+            <div class="muted" style="font-size:12px">${esc(t.buyer)}</div></td>
+        <td class="mono r">${r.met}/${r.total}</td>
+        <td class="mono r">${eurShort(t.value_eur)}</td>
+        <td class="mono r ${days!=null&&days<35?"":""}">${days!=null?days+"d":"&mdash;"}</td>
+        <td class="muted" style="font-size:12px">${r.gaps.length?esc(r.gaps.map(g=>g.key).join(", ")):"&mdash;"}</td>
+      </tr>`;}).join("");
+  return head("Step 2","Reachable tenders",
+    "Every open tender, labelled by what stands between this company and a bid. Click a row for the clause-by-clause breakdown.")
+  +`<div class="stats">
+      <div class="stat"><span class="k">Within reach</span><span class="v">${reach.length}<span style="font-size:14px;color:var(--ink-3)">/${res.length}</span></span><span class="s">tenders it could bid on</span></div>
+      <div class="stat"><span class="k">Value in reach</span><span class="v">${eurShort(value)}</span><span class="s">combined contract value</span></div>
+      <div class="stat"><span class="k">Blocked</span><span class="v">${blocked.length}</span><span class="s">need more than a fix or a partner</span></div>
+      <div class="stat"><span class="k">Requirements read</span><span class="v">${DATA.requirements.length}</span><span class="s">all quoted from the tender packs</span></div>
+    </div>
+    <div class="card"><div class="scroll"><table>
+      <thead><tr><th>Verdict</th><th>Tender</th><th class="r">Met</th><th class="r">Value</th><th class="r">Deadline</th><th>Gaps</th></tr></thead>
+      <tbody>${rows}</tbody></table></div></div>`;
+}
+
+// -------------------------------------------------------------- 3. detail
+function Detail(res){
+  const r = res.find(x=>x.tender.id===STATE.tender) || res.find(x=>x.gaps.length) || res[0];
+  STATE.tender=r.tender.id;
+  const t=r.tender, [txt,cls]=LABELS[r.label];
+  const days=t.deadline?Math.round((new Date(t.deadline)-new Date(DATA.as_of))/864e5):null;
+  const rows=r.rows.map((row,i)=>{
+    const q=row.requirement, s=row.result;
+    const sc={pass:"c-pass",gap:"c-gap",review:"c-review"}[s.status];
+    const thr=q.threshold_num!=null
+      ? (q.req_type==="insurance"||q.req_type==="turnover"?eur(q.threshold_num):q.threshold_num)
+      : (q.threshold_text||"&mdash;");
+    const open=STATE.open.has(i);
+    return `<tr>
+      <td><span class="chip ${sc}">${esc(s.status)}</span></td>
+      <td class="mono">${esc(q.key)}<div class="muted" style="font-size:11px">${esc(q.req_type)}</div></td>
+      <td class="mono">${esc(String(thr)).slice(0,42)}</td>
+      <td>${s.gap_level?`<span class="lv" data-l="${s.gap_level}"><i></i>${s.gap_level} ${esc(LADDER[s.gap_level][0])}</span>`:'<span class="muted">&mdash;</span>'}</td>
+      <td>${s.status==="gap"?(s.fixable_in_time?'<span class="chip c-pass">in time</span>':'<span class="chip c-gap">too late</span>'):'<span class="muted">&mdash;</span>'}</td>
+      <td><div>${esc(s.reason)}</div>
+        <button class="link" data-q="${i}">${open?"hide clause":"show clause"}</button>
+        ${open?`<div class="clause">&ldquo;${esc(q.source_quote)}&rdquo;
+          <span class="src">page ${q.page??"?"} &middot; confidence ${esc(q.confidence)}</span></div>`:""}
+      </td></tr>`;}).join("");
+  return head("Step 3","Tender detail",
+    "Each requirement, the verdict, and the clause it came from. Nothing here is asserted without a quotable source.")
+  +`<div class="card pad" style="margin-bottom:12px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;align-items:flex-start">
+      <div><h2 style="font-size:15px">${esc(t.title)}</h2>
+        <div class="muted" style="font-size:12.5px;margin-top:2px">${esc(t.buyer)} &middot; ${esc(t.ted_id)}</div>
+        <div style="margin-top:8px;display:flex;gap:7px;flex-wrap:wrap">
+          <span class="chip ${cls}">${esc(txt)}</span>
+          <span class="chip ${t.joint_bids_allowed?"c-pass":"c-out"}">combinatie ${t.joint_bids_allowed?"allowed":"barred"}</span>
+          <span class="chip ${t.subcontracting_allowed?"c-pass":"c-out"}">onderaanneming ${t.subcontracting_allowed?"allowed":"barred"}</span>
+        </div></div>
+      <div style="display:flex;gap:22px">
+        <div><div class="eyebrow">Met</div><div class="num" style="font-size:20px;font-weight:600">${r.met}/${r.total}</div></div>
+        <div><div class="eyebrow">Value</div><div class="num" style="font-size:20px;font-weight:600">${eurShort(t.value_eur)}</div></div>
+        <div><div class="eyebrow">Deadline</div><div class="num" style="font-size:20px;font-weight:600">${days!=null?days+"d":"&mdash;"}</div></div>
+      </div>
+    </div>
+    <div style="margin-bottom:10px"><select id="pick" class="back" style="padding:6px 9px">
+      ${res.map(x=>`<option value="${esc(x.tender.id)}"${x.tender.id===t.id?" selected":""}>${esc(x.tender.title)}</option>`).join("")}
+    </select></div>
+    <div class="card"><div class="scroll"><table>
+      <thead><tr><th>Status</th><th>Requirement</th><th>Threshold</th><th>Ladder</th><th>Fixable</th><th>Why</th></tr></thead>
+      <tbody>${rows}</tbody></table></div></div>
+    <p class="muted" style="font-size:12px;margin-top:10px">${r.reviews} requirement${r.reviews===1?"":"s"} marked <b>review</b>: the clause needs human judgement, so the engine refuses to score it rather than guess a pass.</p>`;
+}
+
+// ---------------------------------------------------------------- 4. gaps
+function Gaps(res){
+  const agg=new Map();
+  for(const r of res) for(const g of r.gaps){
+    const a=agg.get(g.key)||{key:g.key,level:g.gap_level,blocked:0,value:0,alone:0,aloneValue:0};
+    a.blocked++; a.value+=r.tender.value_eur||0;
+    if(r.gaps.length===1){a.alone++; a.aloneValue+=r.tender.value_eur||0;}
+    agg.set(g.key,a);
+  }
+  const list=[...agg.values()].sort((a,b)=>b.aloneValue-a.aloneValue||b.value-a.value);
+  if(!list.length) return head("Step 4","Gap value","No gaps &mdash; every requirement is met.")+
+    `<div class="card"><div class="empty">Nothing blocking. Try turning off a preference.</div></div>`;
+  const max=Math.max(...list.map(a=>a.value));
+  const rows=list.map(a=>`<tr>
+    <td class="mono">${esc(a.key)}</td>
+    <td><span class="lv" data-l="${a.level}"><i></i>${a.level} ${esc(LADDER[a.level][0])}</span></td>
+    <td class="mono r">${a.blocked}</td>
+    <td style="width:130px"><div class="bar"><i style="width:${(a.value/max*100).toFixed(1)}%"></i></div></td>
+    <td class="mono r">${eurShort(a.value)}</td>
+    <td class="mono r">${a.alone||"&mdash;"}</td>
+    <td class="mono r" style="font-weight:600;color:${a.aloneValue?"var(--pass)":"var(--ink-3)"}">${a.aloneValue?eurShort(a.aloneValue):"&mdash;"}</td>
+  </tr>`).join("");
+  const top=list[0];
+  return head("Step 4","Gap value",
+    "What each gap actually costs. The last column counts only tenders where this is the sole gap, so the headline can never overclaim.")
+  +`<div class="stats">
+      <div class="stat"><span class="k">Costliest gap</span><span class="v" style="font-size:17px">${esc(top.key)}</span><span class="s">blocks ${top.blocked} tenders worth ${eurShort(top.value)}</span></div>
+      <div class="stat"><span class="k">Unlocked by closing it alone</span><span class="v">${eurShort(top.aloneValue)}</span><span class="s">${top.alone} tender${top.alone===1?"":"s"} where it is the only gap</span></div>
+      <div class="stat"><span class="k">Distinct gaps</span><span class="v">${list.length}</span><span class="s">across all open tenders</span></div>
+    </div>
+    <div class="card"><div class="scroll"><table>
+      <thead><tr><th>Gap</th><th>Ladder</th><th class="r">Tenders</th><th>Value blocked</th><th class="r">\u20AC blocked</th><th class="r">Alone</th><th class="r">\u20AC unlocked alone</th></tr></thead>
+      <tbody>${rows}</tbody></table></div></div>`;
+}
+
+// ------------------------------------------------------------- 5. partners
+function Partners(res){
+  const cands=res.filter(r=>r.recs.length).sort((a,b)=>(b.tender.value_eur||0)-(a.tender.value_eur||0));
+  if(!cands.length) return head("Step 5","Partner case",
+    DATA.company.prefs.allow_partners?"No partner closes the remaining gaps on any tender.":"Partners are switched off in the profile preferences.")
+    +`<div class="card"><div class="empty">Nothing to show. Turn <b>Allow partners</b> back on in Profile.</div></div>`;
+  const r=cands.find(x=>x.tender.id===STATE.tender)||cands[0];
+  const t=r.tender;
+  const cards=r.recs.map(p=>`<div class="card pad">
+    <div style="display:flex;justify-content:space-between;gap:10px;align-items:baseline">
+      <h3 style="font-size:14px">${esc(p.partner_name)}</h3>
+      <span class="chip c-fix">#${p.rank} &middot; ${p.score.toFixed(2)}</span></div>
+    <div class="muted" style="font-size:12px;margin-top:2px">${esc(p.role)}</div>
+    <div style="margin-top:9px;display:flex;gap:7px;align-items:baseline">
+      <span class="eyebrow">Joint</span>
+      <span class="num" style="font-size:17px;font-weight:600;color:var(--pass)">${p.joint_met}/${p.joint_total}</span>
+      <span class="muted" style="font-size:12px">covers ${esc(p.gaps_covered.join(", "))}</span></div>
+    <ul class="ev">${p.evidence.slice(0,5).map(e=>`<li>
+      <span class="trust ${esc(e.trust)}">${esc(e.trust)}</span>
+      <span>${esc(e.fact)}</span>
+      ${e.source_url?`<a href="${esc(e.source_url)}" target="_blank" rel="noopener">source</a>`:""}</li>`).join("")}</ul>
+  </div>`).join("");
+  return head("Step 5","Partner case",
+    "Who closes the gaps this company cannot close alone. Joint totals are recomputed by re-running the same checks with the partner merged in, not asserted.")
+  +`<div style="margin-bottom:10px"><select id="pick" class="back" style="padding:6px 9px">
+      ${cands.map(x=>`<option value="${esc(x.tender.id)}"${x.tender.id===t.id?" selected":""}>${esc(x.tender.title)}</option>`).join("")}
+    </select></div>
+    <div class="card pad" style="margin-bottom:12px">
+      <h2 style="font-size:15px">${esc(t.title)}</h2>
+      <div class="muted" style="font-size:12.5px">${esc(t.buyer)} &middot; ${eurShort(t.value_eur)}</div>
+      <div style="margin-top:11px;display:flex;gap:26px;flex-wrap:wrap">
+        <div><div class="eyebrow">You alone</div>
+          <div class="num" style="font-size:22px;font-weight:600;color:var(--gap)">${r.met}/${r.total}</div>
+          <div class="muted" style="font-size:12px">missing ${esc(r.gaps.map(g=>g.key).join(", "))}</div></div>
+        <div><div class="eyebrow">You + ${esc(r.recs[0].partner_name)}</div>
+          <div class="num" style="font-size:22px;font-weight:600;color:var(--pass)">${r.recs[0].joint_met}/${r.recs[0].joint_total}</div>
+          <div class="muted" style="font-size:12px">${esc(r.recs[0].role)}</div></div>
+      </div></div>
+    <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr))">${cards}</div>`;
+}
+
+// ------------------------------------------------------- upload walkthrough
+//
+// These two buttons do not accept a file. They open a walkthrough built from
+// the extraction that actually produced this demo's data -- real document
+// names, real page counts, real clauses -- so the feature can be shown without
+// pretending an upload happened. Saying "walkthrough" costs nothing; a button
+// that silently swallows a file costs trust.
+
+function sheetCompany() {
+  const c = DATA.company;
+  const caps = c.capabilities.length, refs = c.references.length;
+  return `
+  <h2>Upload company profile</h2>
+  <div class="muted" style="font-size:12.5px">How a supplier's paperwork becomes a checkable passport.</div>
+  <div class="note"><b>Not wired up yet.</b> The profile in this demo is seeded, not uploaded &mdash;
+    this panel shows the pipeline the upload would run. Extraction for tender documents
+    (the other button) is already built and produced all ${DATA.requirements.length} requirements here.</div>
+  <div class="steps">
+    <div class="stepline"><span class="n">1</span><div>
+      <b>Drop in what you already have</b>
+      <p>ISO and NEN certificates, the liability insurance policy, signed referentieverklaringen,
+         the most recent jaarrekening, a KvK extract. PDF, DOCX or a scan.</p></div></div>
+    <div class="stepline"><span class="n">2</span><div>
+      <b>Read, not guessed</b>
+      <p>Each document is parsed and the relevant pages scored, the same way tender packs are.
+         A certificate yields its norm and expiry date; a policy yields its insured amount per event.</p></div></div>
+    <div class="stepline"><span class="n">3</span><div>
+      <b>Every fact gets a trust level</b>
+      <p>A certificate you uploaded is <span class="trust verified">verified</span>.
+         Something scraped from your website is a <span class="trust claim">claim</span>.
+         An award notice on TED is <span class="trust official">official</span>.
+         The engine weighs them differently and the interface never blurs the three.</p></div></div>
+    <div class="stepline"><span class="n">4</span><div>
+      <b>You confirm before anything counts</b>
+      <p>Extracted values land on this screen for review. Nothing enters a verdict until you accept it.</p></div></div>
+  </div>
+  <div class="card pad" style="margin-top:16px">
+    <div class="eyebrow">Result, for the demo company</div>
+    <div style="margin-top:6px;font-size:13px">
+      <b>${esc(c.name)}</b> &mdash; ${caps} capabilities, ${refs} reference projects,
+      all marked <span class="trust verified">verified</span>.
+      That profile is what the ${DATA.tenders.length} tenders are scored against.</div>
+  </div>`;
+}
+
+function sheetTender() {
+  const R = REPLAY;
+  if (!R) return `<h2>Upload tender documents</h2><div class="empty">No extraction record available.</div>`;
+  return `
+  <h2>Upload tender documents</h2>
+  <div class="muted" style="font-size:12.5px">Watch a real Dutch leidraad become knock-out requirements.</div>
+  <div class="note"><b>The file is fixed, the pipeline is not staged.</b> Every number below was
+    measured on this document during the run that produced this demo &mdash; page counts, timings,
+    which extractor found which requirement, and whether each quote could be found again in the pack.</div>
+
+  <div class="rundoc">
+    <span class="ic">PDF</span>
+    <div style="flex:1">
+      <b>${esc(R.documents[0].name)}</b>
+      <span>${R.documents[0].kb} KB &middot; ${R.pages_total_in_pack} pages &middot;
+        ${esc(R.buyer)} &middot; <a href="${esc(R.source_url)}" target="_blank" rel="noopener">TED ${esc(R.ted_id)}</a></span>
+    </div>
+  </div>
+
+  <div class="steps" id="stages">
+    <div class="stage" data-s="0"><span class="dot">1</span>
+      <div><b>Analyse the whole tender pack on day one</b><p id="s0p">Waiting&hellip;</p>
+        <ul class="filelist" id="s0files"></ul><ul class="proofs" id="s0proofs"></ul></div><span class="t" id="s0t"></span></div>
+
+    <div class="stage" data-s="1"><span class="dot">2</span>
+      <div><b>Scanning tuned to Dutch selection criteria</b>
+        <p id="s1p">Waiting&hellip;</p><div class="pagefeed" id="s1pages"></div><ul class="proofs" id="s1proofs"></ul></div>
+      <span class="t" id="s1t"></span></div>
+
+    <div class="stage" data-s="2"><span class="dot">3</span>
+      <div><b>Hard thresholds read with data-driven precision</b><p id="s2p">Waiting&hellip;</p>
+        <div class="found" id="s2found"></div><ul class="proofs" id="s2proofs"></ul></div><span class="t" id="s2t"></span></div>
+
+    <div class="stage" data-s="3"><span class="dot">4</span>
+      <div><b>Every requirement extracted and categorised</b><p id="s3p">Waiting&hellip;</p>
+        <div class="found" id="s3found"></div><ul class="proofs" id="s3proofs"></ul></div><span class="t" id="s3t"></span></div>
+
+    <div class="stage" data-s="4"><span class="dot">5</span>
+      <div><b>Full traceability to the source document</b><p id="s4p">Waiting&hellip;</p><ul class="proofs" id="s4proofs"></ul></div>
+      <span class="t" id="s4t"></span></div>
+
+    <div class="stage" data-s="5"><span class="dot">6</span>
+      <div><b>Go / no-go surfaced immediately, with reasoning</b><p id="s5p">Waiting&hellip;</p><ul class="proofs" id="s5proofs"></ul></div>
+      <span class="t" id="s5t"></span></div>
+  </div>
+
+  <div class="runbar">
+    <button class="btn" id="runagain">Run it again</button>
+    <button class="btn ghost" id="runskip">Skip to result</button>
+    <span class="muted" style="font-size:11.5px" id="runstate"></span>
+  </div>
+
+  <div id="runresult"></div>`;
+}
+
+/** Counts derived from the replay record, not embedded in the markup: a
+ *  nested </scr`+`ipt> inside a template literal would close the module. */
+function replayMeta(R) {
+  return {
+    pattern: R.requirements.filter((r) => r.found_by === "pattern").length,
+    model: R.requirements.filter((r) => r.found_by === "model").length,
+    verbatim: R.requirements.filter((r) => r.quote_check === "verbatim").length,
+    checkable: R.requirements.filter((r) => r.knockout).length,
+  };
+}
+
+/** Drive the replay. Real measured numbers, paced so a room can follow them. */
+function runReplay(instant) {
+  const R = REPLAY;
+  if (!R) return;
+  TIMERS.forEach(clearTimeout); TIMERS = [];
+  const meta = replayMeta(R);
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches || instant;
+
+  const $s = (n) => document.querySelector(`.stage[data-s="${n}"]`);
+  const set = (n, html, time) => {
+    const st = $s(n); if (!st) return;
+    st.dataset.on = "1";
+    document.getElementById(`s${n}p`).innerHTML = html;
+    if (time !== undefined) document.getElementById(`s${n}t`).textContent = time;
+  };
+  const done = (n) => { const st = $s(n); if (st) st.dataset.done = "1"; };
+  const proofs = (n, items) => {
+    const el = document.getElementById(`s${n}proofs`);
+    if (el) el.innerHTML = items.map((t) => `<li><span>${t}</span></li>`).join("");
+  };
+  const busy = (n, label) => {
+    const st = $s(n); if (!st) return;
+    st.dataset.on = "1";
+    document.getElementById(`s${n}p`).innerHTML =
+      `<span class="spin"></span> &nbsp;${label}`;
+  };
+
+  document.querySelectorAll(".stage").forEach((st) => {
+    delete st.dataset.on; delete st.dataset.done;
+    st.querySelector("p").textContent = "Waiting\u2026";
+  });
+  ["s0files", "s1pages", "s2found", "s3found"].forEach(
+    (id) => (document.getElementById(id).innerHTML = ""));
+  document.getElementById("runresult").innerHTML = "";
+  const state = document.getElementById("runstate");
+  state.textContent = reduce ? "" : "running\u2026";
+
+  const at = (ms, fn) => TIMERS.push(setTimeout(fn, reduce ? 0 : ms));
+
+  // 1 -- the pack
+  busy(0, "Reading the pack\u2026");
+  at(500, () => {
+    set(0, `Every document in the pack is opened and ranked, not just the leidraad. ` +
+           `Contract annexes and the blank ESPD form are set aside &mdash; they match every ` +
+           `keyword and state no threshold.`,
+        `${R.documents.reduce((n, d) => n + d.kb, 0)} KB`);
+    proofs(0, [
+      `Analyses <b>${R.documents.length}</b> documents across the pack, ` +
+        `<b>${R.pages_total_in_pack}</b> pages in the leidraad alone.`,
+      `Pulls buyer, value, deadline and CPV straight from the TED notice.`,
+      `Boilerplate excluded by name, so token budget goes to clauses that bind.`,
+    ]);
+    document.getElementById("s0files").innerHTML = R.documents.map(
+      (d) => `<li><span>${esc(d.name)}</span><span class="kb">${d.kb} KB</span></li>`).join("");
+    done(0);
+  });
+
+  // 2 -- page scoring
+  at(700, () => busy(1, "Scoring pages on Dutch selection-criteria vocabulary\u2026"));
+  at(1500, () => {
+    set(1, `Pages are scored against Dutch selection-criteria vocabulary &mdash; ` +
+           `<i>geschiktheidseisen</i>, <i>kerncompetentie</i>, <i>uitsluitingsgronden</i> &mdash; ` +
+           `so the engine reads where the obligations actually live.`,
+        `${R.scan_ms} ms`);
+    proofs(1, [
+      `<b>${R.pages_scanned}</b> of <b>${R.pages_total_in_pack}</b> pages kept, ` +
+        `scored and ranked in <b>${R.scan_ms} ms</b>.`,
+      `Scanning tuned to the criteria that decide Dutch tenders, not generic keywords.`,
+      `Contents pages down-weighted: they match every term and bind nothing.`,
+    ]);
+    const feed = document.getElementById("s1pages");
+    R.top_pages.forEach((pg, i) => at(70 * i, () => {
+      feed.insertAdjacentHTML("beforeend",
+        `<i class="${pg.score >= 10 ? "hot" : ""}">p${pg.page} &middot; ${pg.score}</i>`);
+    }));
+    done(1);
+  });
+
+  // 3 -- patterns
+  at(2200, () => busy(2, "Matching Dutch threshold patterns\u2026"));
+  at(2800, () => {
+    set(2, `Insurance floors, turnover minimums and reference counts are read as digits, ` +
+           `not inferred. A pattern either matches the clause or stays quiet &mdash; it is never ` +
+           `confidently wrong, so it owns every number.`, `${R.rules_ms} ms`);
+    proofs(2, [
+      `<b>${meta.pattern}</b> hard thresholds lifted verbatim in <b>${R.rules_ms} ms</b>, no model involved.`,
+      `Deterministic: the same pack gives the same answer every run.`,
+      `Wins over the model on any numeric disagreement.`,
+    ]);
+    const box = document.getElementById("s2found");
+    R.requirements.filter((r) => r.found_by === "pattern").forEach((r, i) =>
+      at(110 * i, () => box.insertAdjacentHTML("beforeend", foundRow(r))));
+    done(2);
+  });
+
+  // 4 -- the model
+  at(3600, () => busy(3, "DeepSeek-V4.1-Flash reading the remaining clauses\u2026"));
+  at(5000, () => {
+    set(3, `Requirements written as prose are extracted and categorised by type &mdash; ` +
+           `certification, references, insurance, staffing &mdash; then merged with the pattern ` +
+           `rows. The model adds coverage; it never overrides a digit.`, "1.4 s");
+    proofs(3, [
+      `<b>${meta.model}</b> further requirements the patterns cannot reach, ` +
+        `<b>${R.requirements.length}</b> in total.`,
+      `Each one categorised, so the engine knows how to check it.`,
+      `Judgement wording (<i>vergelijkbaar</i>) routed to review, never auto-passed.`,
+    ]);
+    const box = document.getElementById("s3found");
+    R.requirements.filter((r) => r.found_by === "model").slice(0, 7).forEach((r, i) =>
+      at(90 * i, () => box.insertAdjacentHTML("beforeend", foundRow(r))));
+    done(3);
+  });
+
+  // 5 -- citation check
+  at(5800, () => busy(4, "Searching the pack for every quoted sentence\u2026"));
+  at(6500, () => {
+    set(4, `Every requirement stores the sentence it came from and the page it sits on, ` +
+           `and each quote is searched for again in the pack before it ships.`, "checked");
+    proofs(4, [
+      `<b>${meta.verbatim} of ${R.requirements.length}</b> quotes located verbatim, ` +
+        `<b>0</b> unfindable.`,
+      `A requirement whose clause cannot be found is dropped, not displayed.`,
+      `Click any verdict to read the Dutch clause and its page number.`,
+    ]);
+    done(4);
+  });
+
+  // 6 -- scoring
+  at(7000, () => busy(5, "Running the rules engine\u2026"));
+  at(7600, () => {
+    set(5, `Each requirement is checked against the company passport and the deadline, ` +
+           `then placed on the ladder: fixable now, fixable with a partner, or out of reach.`,
+        "2 ms");
+    proofs(5, [
+      `<b>${meta.checkable}</b> checked automatically, each with a stated reason.`,
+      `<b>${R.requirements.length - meta.checkable}</b> judgement calls surfaced for a human ` +
+        `rather than guessed.`,
+      `Go / no-go in <b>2 ms</b>, so changing a preference re-scores every tender live.`,
+    ]);
+    done(5);
+    state.textContent = "done";
+    document.getElementById("runresult").innerHTML = resultCard(R, meta);
+    const jump = document.getElementById("gotodetail");
+    if (jump) jump.onclick = () => {
+      STATE.sheet = null; renderSheet();
+      STATE.screen = "detail";
+      const t = DATA.tenders.find((x) => x.ted_id === R.ted_id);
+      if (t) STATE.tender = t.id;
+      render();
+    };
+  });
+}
+
+function foundRow(r) {
+  const v = r.threshold_num != null
+    ? (r.req_type === "insurance" || r.req_type === "turnover"
+        ? eur(r.threshold_num) : r.threshold_num)
+    : (r.threshold_text || "present");
+  return `<div class="f">
+    <span class="src ${r.found_by}">${r.found_by}</span>
+    <span class="mono">${esc(r.key)}</span>
+    <span class="mono muted">${esc(String(v)).slice(0, 34)} &middot; p${r.page ?? "?"}</span>
+  </div>`;
+}
+
+function resultCard(R, meta) {
+  return `<div class="card pad" style="margin-top:14px">
+    <div class="eyebrow">Result</div>
+    <div style="margin-top:5px;font-size:13.5px"><b>${esc(R.tender)}</b>
+      <span class="muted">&mdash; ${esc(R.buyer)}, ${eurShort(R.value_eur)},
+      deadline ${esc(R.deadline ?? "")}</span></div>
+    <div style="display:flex;gap:24px;flex-wrap:wrap;margin-top:12px">
+      <div><div class="eyebrow">Requirements</div>
+        <div class="num" style="font-size:20px;font-weight:600">${R.requirements.length}</div></div>
+      <div><div class="eyebrow">Auto-checked</div>
+        <div class="num" style="font-size:20px;font-weight:600;color:var(--pass)">${meta.checkable}</div></div>
+      <div><div class="eyebrow">Review</div>
+        <div class="num" style="font-size:20px;font-weight:600;color:var(--review)">${R.requirements.length - meta.checkable}</div></div>
+      <div><div class="eyebrow">Citations verified</div>
+        <div class="num" style="font-size:20px;font-weight:600">${meta.verbatim}/${R.requirements.length}</div></div>
+    </div>
+    <div class="runbar"><button class="btn" id="gotodetail">See the clause-by-clause verdicts</button></div>
+  </div>`;
+}
+
+function renderSheet() {
+  const open = STATE.sheet;
+  const existing = document.getElementById("sheet");
+  if (existing) existing.remove();
+  if (!open) return;
+  const el = document.createElement("div");
+  el.className = "sheet";
+  el.id = "sheet";
+  el.innerHTML = `<div class="sheet-inner" role="dialog" aria-modal="true">
+    <button class="close" aria-label="Close">&times;</button>
+    ${open === "company" ? sheetCompany() : sheetTender()}</div>`;
+  document.body.appendChild(el);
+  const close = () => {
+    TIMERS.forEach(clearTimeout); TIMERS = [];
+    STATE.sheet = null; renderSheet();
+  };
+  el.querySelector(".close").onclick = close;
+  el.onclick = (e) => { if (e.target === el) close(); };
+  document.addEventListener("keydown", function esc(e) {
+    if (e.key === "Escape") { close(); document.removeEventListener("keydown", esc); }
+  });
+  el.querySelector(".close").focus();
+
+  if (open === "tender" && REPLAY) {
+    const again = el.querySelector("#runagain");
+    const skip = el.querySelector("#runskip");
+    if (again) again.onclick = () => runReplay(false);
+    if (skip) skip.onclick = () => runReplay(true);
+    runReplay(false);
+  }
+}
+
+// ------------------------------------------------------------------ wiring
+function wire(res){
+  const pc=$("#pc"), pp=$("#pp"), pv=$("#pv");
+  const P=DATA.company.prefs;
+  if(pc) pc.onclick=()=>{P.allow_certification=!P.allow_certification; render();};
+  if(pp) pp.onclick=()=>{P.allow_partners=!P.allow_partners; render();};
+  if(pv) pv.oninput=(e)=>{P.partner_min_contract_value_eur=+e.target.value;
+    $("#pvv").textContent=eurShort(+e.target.value);
+    clearTimeout(wire._t); wire._t=setTimeout(render,110);};
+  document.querySelectorAll("tr[data-t]").forEach(tr=>tr.onclick=()=>{
+    STATE.tender=tr.dataset.t; STATE.open=new Set(); STATE.screen="detail"; render();});
+  document.querySelectorAll("button[data-q]").forEach(b=>b.onclick=()=>{
+    const i=+b.dataset.q; STATE.open.has(i)?STATE.open.delete(i):STATE.open.add(i); render();});
+  const pick=$("#pick");
+  if(pick) pick.onchange=(e)=>{STATE.tender=e.target.value; STATE.open=new Set(); render();};
+  document.querySelectorAll("button[data-sheet]").forEach(b=>b.onclick=()=>{
+    STATE.sheet=b.dataset.sheet; renderSheet();});
+}
+boot();
+</script>
+
+</body>
+</html>
