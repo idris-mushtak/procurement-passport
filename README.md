@@ -1,5 +1,14 @@
 # Procurement Passport — data pipeline (Person A)
 
+**Live demo:** https://idris-mushtak.github.io/procurement-passport/
+**Backend:** Supabase project `acdnnqeyygjdupuznnmz` (see [BACKEND.md](BACKEND.md)) · **Deploy:** [DEPLOY.md](DEPLOY.md)
+
+The demo page is `web/`, served from the `gh-pages` branch. It runs the same
+rules engine as the `/evaluate` Edge Function, client-side, against the seeded
+`web/data.json` — so it needs no network and no keys.
+
+---
+
 Offline prep for the 3-hour build: turns live TED and TenderNed data into the
 SQL seeds that Supabase loads and the Lovable app reads. The LLM runs only
 here, before the demo. Nothing in the live demo waits on a model.
